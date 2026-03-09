@@ -1,14 +1,13 @@
 {
-    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
-    "type": "Code",
+    "type": "code",
     "modid": "toe-classes",
     "name": "ToE_Classes",
     "authors": [
-        "Unknown"
+        "svanax"
     ],
-    "description": "To be added",
+    "description": "Classes for the ToE Server",
     "version": "1.0.0",
     "dependencies": {
-        "game": "1.21.0"
+        "game": ""
     }
 }
