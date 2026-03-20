@@ -1,0 +1,277 @@
+[
+
+    {
+        "code": "bubblebubble",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "mixer",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "hedgewitch",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+
+
+
+    {
+        "code": "mason",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "carpenter",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "clumsy",
+        "type": "negative",
+        "attributes": {
+            "miningSpeedMul": -0.1
+        }
+    },
+
+
+    {
+        "code": "smith",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "heavymachinery",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "loud",
+        "type": "negative",
+        "attributes": {
+            "animalSeekingRange": 0.35
+        }
+    },
+
+
+
+    {
+        "code": "dirtyapron",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "practicedbutcher",
+        "type": "positive",
+        "attributes": {
+            "animalSeekingRange": -0.2
+        }
+    },
+    {
+        "code": "homebody",
+        "type": "negative",
+        "attributes": {
+            "miningSpeedMul": -0.2,
+            "oreDropRate": -0.2
+
+        }
+    },
+
+
+    {
+        "code": "tinkerer2",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "millwright",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "sailwright",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "shipwright",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "seensomeshit",
+        "type": "positive",
+        "attributes": {
+            "temporalStabilityDropRate": -0.1
+        }
+    },
+    {
+        "code": "lumbering",
+        "type": "negative",
+        "attributes": {
+            "walkspeed": -0.05
+        }
+    },
+
+
+
+
+    {
+        "code": "blackland",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "farmer",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "greenfingered",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "woodsman",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+
+
+
+
+
+    {
+        "code": "digger",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "miner",
+        "type": "positive",
+        "attributes": {
+            "miningSpeedMul": 0.4
+        }
+    },
+    {
+        "code": "mason",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "hungry",
+        "type": "negative",
+        "attributes": {
+            "hungerrate": 0.1
+        }
+    },
+
+
+
+    {
+        "code": "spinthrift",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "mender2",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "harmless",
+        "type": "negative",
+        "attributes": {
+            "animalSeekingRange": 0.35,
+            "animalLootDropRate": -0.1
+        }
+    },
+    {
+        "code": "potter",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "artisan",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+
+
+
+
+    {
+        "code": "resourceful",
+        "type": "positive",
+        "attributes": {
+            "animalLootDropRate": 0.1,
+            "animalHarvestingTime": -0.25
+        }
+    },
+    {
+        "code": "serpentine",
+        "type": "positive",
+        "attributes": {
+            "sneakSpeed": 0.1
+        }
+    },
+    {
+        "code": "tanner",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+
+
+
+    {
+        "code": "longstrider",
+        "type": "positive",
+        "attributes": {
+            "walkspeed": 0.1
+        }
+    },
+    {
+        "code": "pathmaker",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "angler",
+        "type": "positive",
+        "attributes": {
+        }
+    },
+    {
+        "code": "brownthumb",
+        "type": "negative",
+        "attributes": {
+        }
+    },
+
+]
