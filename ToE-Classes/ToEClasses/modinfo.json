@@ -1,0 +1,20 @@
+{
+  "Type": "content",
+  "Name": "ToEClasses",
+  "Version": "1.0.0",
+  "Description": "All classes for ToE",
+  "Website": "",
+  "ModID": "toeclasses",
+  "Authors": [
+    "svanax"
+  ],
+  "Contributors": [
+  ],
+  "Side": "Universal",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "Dependencies": {
+    "game" : "",
+    "playermodellib": ""
+  }
+}

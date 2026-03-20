@@ -5,6 +5,8 @@
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <OutputPath>bin\$(Configuration)\Mods\mod</OutputPath>
         <Nullable>enable</Nullable>
+        <AssemblyName>ToEClasses</AssemblyName>
+        <RootNamespace>ToEClasses</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
