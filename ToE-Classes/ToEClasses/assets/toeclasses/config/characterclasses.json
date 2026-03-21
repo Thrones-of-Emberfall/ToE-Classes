@@ -20,7 +20,7 @@
 	{
 		"enabled": true,
 		"code": "forger",
-		"traits": ["mender","smith","heavymachinery","heavyhanded","loud"],
+		"traits": ["mender","smith","machinist","heavyhanded","loud"],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" }
 		]
@@ -38,7 +38,7 @@
 	{
 		"enabled": true,
 		"code": "engineer",
-		"traits": ["precise", "seensomeshit","tinkerer2", "millwright", "sailwright", "shipwright","loud","lumbering"],
+		"traits": ["precise", "seensomeshit","machinist", "millwright", "sailwright", "shipwright","loud","lumbering"],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" }
 		]
