@@ -8,7 +8,7 @@
   "game:trait-clumsy": "<font color=\"#ff8484\">• Clumsy </font>",
 
   "game:trait-smith": "<font color=\"#84ff84\">• Smith </font>",
-  "game:trait-heavymachinery": "<font color=\"#84ff84\">• Heavy Machinery </font>",
+  "game:trait-machinist": "<font color=\"#84ff84\">• Machinist </font>",
   "game:trait-loud": "<font color=\"#ff8484\">• Loud </font>",
 
   "game:trait-dirtyapron": "<font color=\"#84ff84\">• Dirty Apron </font>",
@@ -60,6 +60,10 @@
   "game:charattribute-miningSpeedMul-0.4": "+40% mining speed",
   "game:charattribute-hungerrate-0.1": "+10% hunger rate",
   "game:charattribute-animalLootDropRate--0.1": "-10% animal loot",
+
+  "traitdesc-smith":      "Can work with advanced (Tier 2+) anvils and operate bellows.",
+  "traitdesc-shipwright": "Can build sailboats for efficient overseas travel.",
+  "traitdesc-machinist":  "Can make, install and operate helve hammers, pulverizers, chutes and other kinds of machinery.",
 
   "game:characterclass-apothecery": "Apothecary",
   "game:characterclass-architect": "Architect",
