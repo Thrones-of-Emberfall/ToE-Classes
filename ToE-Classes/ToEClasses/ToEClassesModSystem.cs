@@ -11,7 +11,11 @@ public class ToEClassesModSystem : ModSystem
     // Useful for registering block/entity classes on both sides
     public override void Start(ICoreAPI api)
     {
-        Mod.Logger.Notification("Hello from template mod: " + api.Side);
+        api.RegisterBlockClass("AnvilLocked", typeof(AnvilLocked));
+        api.RegisterBlockClass("BellowsLocked", typeof(BellowLocked));
+        api.RegisterBlockClass("HelveLocked", typeof(HelveLocked));
+        api.RegisterBlockClass("PulverizerLocked", typeof(PulverizerLocked));
+        api.RegisterItemClass("RollerLocked", typeof(RollerLocked));
     }
 
     public override void StartServerSide(ICoreServerAPI api)

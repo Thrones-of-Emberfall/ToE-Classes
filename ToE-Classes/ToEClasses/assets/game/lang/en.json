@@ -1,0 +1,11 @@
+{
+    "traitdesc-machinist": "Can make, install and operate helve hammers, pulverizers, chutes and other kinds of machinery.",
+    "traitdesc-sailwright": "Can make large sails, more efficient at making normal-sized sails.",
+    "traitdesc-shipwright": "Can build sailboats for efficient overseas travel.",
+    "traitdesc-smith": "Can work with advanced (Tier 3+) anvils and operate bellows.",
+
+    "traitname-machinist": "Madchinist",
+    "traitname-sailwright": "Sailwright",
+    "traitname-shipwright": "Shipwright",
+    "traitname-smith": "Smith"
+}
