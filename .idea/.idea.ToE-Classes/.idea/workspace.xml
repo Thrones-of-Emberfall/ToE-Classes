@@ -9,13 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7507f9f-9e48-4b0c-8901-b646a37a9b95" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ToE-Classes/CakeBuild/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToE-Classes/CakeBuild/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="e7507f9f-9e48-4b0c-8901-b646a37a9b95" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -129,7 +130,7 @@
       <updated>1773081158569</updated>
       <workItem from="1773081159905" duration="342000" />
       <workItem from="1774046092785" duration="32000" />
-      <workItem from="1774050719192" duration="465000" />
+      <workItem from="1774050719192" duration="702000" />
     </task>
     <task id="LOCAL-00001" summary="Modinfo Cleanup">
       <option name="closed" value="true" />
@@ -155,7 +156,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774050986899</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed the refactor cause the name did a fuckup">
+      <option name="closed" value="true" />
+      <created>1774051198624</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774051198624</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fuckup part 2">
+      <option name="closed" value="true" />
+      <created>1774051299569</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774051299569</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +196,9 @@
     <MESSAGE value="Modinfo Cleanup" />
     <MESSAGE value="Refactor and framework done" />
     <MESSAGE value="Part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 2" />
+    <MESSAGE value="Fixed the refactor cause the name did a fuckup" />
+    <MESSAGE value="fuckup part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fuckup part 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,117 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modId": "toeorigins"
+      }
+    ],
+    "file": "toeorigins:config/customplayermodels/bogwarden",
+    "op": "replace",
+    "path": "/bogwarden/AvailableClasses",
+    "value": [
+      "apothecery",
+      "architect",
+      "forger",
+      "scullion",
+      "engineer",
+      "farmhand",
+      "tunnelrat",
+      "artisan",
+      "trapper",
+      "trapper",
+      "drifter"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modId": "toeorigins"
+      }
+    ],
+    "file": "toeorigins:config/customplayermodels/deckhand",
+    "op": "replace",
+    "path": "/deckhand/AvailableClasses",
+    "value": [
+      "apothecery",
+      "architect",
+      "forger",
+      "scullion",
+      "engineer",
+      "farmhand",
+      "tunnelrat",
+      "artisan",
+      "trapper",
+      "trapper",
+      "drifter"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modId": "toeorigins"
+      }
+    ],
+    "file": "toeorigins:config/customplayermodels/dunestrider",
+    "op": "replace",
+    "path": "/dunestrider/AvailableClasses",
+    "value": [
+      "apothecery",
+      "architect",
+      "forger",
+      "scullion",
+      "engineer",
+      "farmhand",
+      "tunnelrat",
+      "artisan",
+      "trapper",
+      "trapper",
+      "drifter"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modId": "toeorigins"
+      }
+    ],
+    "file": "toeorigins:config/customplayermodels/highlander",
+    "op": "replace",
+    "path": "/highlander/AvailableClasses",
+    "value": [
+      "apothecery",
+      "architect",
+      "forger",
+      "scullion",
+      "engineer",
+      "farmhand",
+      "tunnelrat",
+      "artisan",
+      "trapper",
+      "trapper",
+      "drifter"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modId": "toeorigins"
+      }
+    ],
+    "file": "toeorigins:config/customplayermodels/stoneback",
+    "op": "replace",
+    "path": "/stoneback/AvailableClasses",
+    "value": [
+      "apothecery",
+      "architect",
+      "forger",
+      "scullion",
+      "engineer",
+      "farmhand",
+      "tunnelrat",
+      "artisan",
+      "trapper",
+      "trapper",
+      "drifter"
+    ]
+  }
+]
