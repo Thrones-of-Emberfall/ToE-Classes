@@ -11,7 +11,7 @@
 	{
 		"enabled": false,
 		"code": "architect",
-		"traits": ["mason","carpenter","heavyhanded","clumsy"],
+		"traits": ["mason","heavyhanded","clumsy"],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" }
 		]
