@@ -1,0 +1,14 @@
+[
+  {
+    "file": "game:recipes/grid/mechpowerblocks.json",
+    "op": "add",
+    "path": "/8/requiresTrait",
+    "value": "sailwright"
+  },
+  {
+    "file": "game:recipes/grid/mechpowerblocks.json",
+    "op": "add",
+    "path": "/9/requiresTrait",
+    "value": "sailwright"
+  }
+]

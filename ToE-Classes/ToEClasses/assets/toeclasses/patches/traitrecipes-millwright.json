@@ -1,0 +1,32 @@
+[
+  {
+    "file": "game:recipes/grid/mechpowerblocks.json",
+    "op": "add",
+    "path": "/10/requiresTrait",
+    "value": "millwright"
+  },
+  {
+    "file": "game:recipes/grid/mechpowerblocks.json",
+    "op": "add",
+    "path": "/11/requiresTrait",
+    "value": "millwright"
+  },
+  {
+    "file": "game:recipes/grid/mechpowerblocks.json",
+    "op": "add",
+    "path": "/16/requiresTrait",
+    "value": "millwright"
+  },
+  {
+    "file": "game:recipes/grid/mechpowerblocks.json",
+    "op": "add",
+    "path": "/17/requiresTrait",
+    "value": "millwright"
+  },
+  {
+    "file": "game:recipes/grid/mechpowerblocks.json",
+    "op": "add",
+    "path": "/18/requiresTrait",
+    "value": "millwright"
+  }
+]
