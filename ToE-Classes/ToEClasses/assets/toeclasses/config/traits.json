@@ -27,12 +27,8 @@
         "attributes": {
         }
     },
-    {
-        "code": "carpenter",
-        "type": "positive",
-        "attributes": {
-        }
-    },
+
+    
     {
         "code": "clumsy",
         "type": "negative",
