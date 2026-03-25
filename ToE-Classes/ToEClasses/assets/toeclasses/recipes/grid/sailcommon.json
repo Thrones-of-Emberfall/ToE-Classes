@@ -1,0 +1,42 @@
+{
+    "ingredientPattern": "_BS,BSL,SL_",
+    "ingredients": {
+        "B": {
+            "type": "block",
+            "code": "game:supportbeam-*",
+            "name": "wood",
+            "allowedVariants": [
+                "birch",
+                "oak",
+                "maple",
+                "pine",
+                "acacia",
+                "kapok",
+                "baldcypress",
+                "larch",
+                "redwood",
+                "ebony",
+                "walnut",
+                "purpleheart"
+            ],
+            "quantity": 4
+        },
+        "S": {
+            "type": "item",
+            "code": "game:stick",
+            "quantity": 4
+        },
+        "L": {
+            "type": "block",
+            "code": "game:linen-*",
+            "quantity": 4
+        }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+        "type": "item",
+        "code": "game:sail",
+        "quantity": 4
+    }
+}

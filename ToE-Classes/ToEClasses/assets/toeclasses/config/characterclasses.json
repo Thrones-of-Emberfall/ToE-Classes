@@ -1,170 +1,101 @@
 [
-  {
-    "enabled": true,
-    "code": "apothecery",
-    "traits": ["forager", "bubblebubble", "mixer", "hedgewitch", "weak", "kind", "claustrophobic"],
-    "gear": [
-      { "type": "item", "code": "game:clothes-head-embroidered-coif" },
-      { "type": "item", "code": "game:clothes-shoulder-embroidered-collar" },
-      { "type": "item", "code": "game:clothes-upperbody-surgeon" },
-      { "type": "item", "code": "game:clothes-lowerbody-chateau-pants" },
-      { "type": "item", "code": "game:clothes-foot-surgeon" },
-      { "type": "item", "code": "game:clothes-hand-tailor-gloves" }
+   {
+		"enabled": true,
+		"code": "apothecery",
+		"traits": ["forager", "bubblebubble", "mixer", "hedgewitch", "weak", "kind", "claustrophobic"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" }
+		]
+	},
 
-    ]
-  },
+	{
+		"enabled": false,
+		"code": "architect",
+		"traits": ["mason","heavyhanded","clumsy"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" }
+		]
+	},
 
-  {
-    "enabled": true,
-    "code": "architect",
-    "traits": ["mason","carpenter","heavyhanded","clumsy"],
-    "gear": [
-      { "type": "item", "code": "game:clothes-head-messengers-hat" },
-      { "type": "item", "code": "game:clothes-upperbody-messenger-shirt" },
-      { "type": "item", "code": "game:clothes-lowerbody-messenger-trousers" },
-      { "type": "item", "code": "game:clothes-foot-messenger-shoes" },
-      { "type": "item", "code": "game:clothes-emblem-messenger-pin" },
-      { "type": "item", "code": "game:clothes-hand-laced-handsome-gloves" },
-      { "type": "item", "code": "game:clothes-waist-messenger-belt" }
+	{
+		"enabled": true,
+		"code": "forger",
+		"traits": ["mender","smith","machinist","heavyhanded","loud"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" }
+		]
+	},
 
-    ]
-  },
+	{
+		"enabled": true,
+		"code": "scullion",
+		"traits": ["practicedbutcher","mixer","dirtyapron","homebody"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" }
+		]
+	},
 
-  {
-    "enabled": true,
-    "code": "forger",
-    "traits": ["mender","smith","heavymachinery","heavyhanded","loud"],
-    "gear": [
-      { "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
-      { "type": "item", "code": "game:clothes-upperbody-woolen-shirt" },
-      { "type": "item", "code": "game:clothes-lowerbody-workmans-gown" },
-      { "type": "item", "code": "game:clothes-foot-high-leather-boots" },
-      { "type": "item", "code": "game:clothes-arm-leather-bracers" },
-      { "type": "item", "code": "game:clothes-waist-peasant-strap" }
+	{
+		"enabled": true,
+		"code": "engineer",
+		"traits": ["precise", "seensomeshit","machinist", "millwright", "sailwright", "shipwright","loud","lumbering"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" }
+		]
+	},
+	
+	{
+		"enabled": true,
+		"code": "farmhand",
+		"traits": ["forager","blackland","farmer","greenfingered","woodsman","claustrophobic","kind"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" }
+		]
+	},
 
-    ]
-  },
+	{
+		"enabled": true,
+		"code": "tunnelrat",
+		"traits": ["miner","pilferer","seensomeshit","digger","mason","kind","hungry"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" }
+		]
+	},
 
-  {
-    "enabled": true,
-    "code": "scullion",
-    "traits": ["practicedbutcher","mixer","dirtyapron","homebody"],
-    "gear": [
-      { "type": "item", "code": "game:clothes-head-alchemist" },
-      { "type": "item", "code": "game:clothes-shoulder-alchemist" },
-      { "type": "item", "code": "game:clothes-upperbody-alchemist" },
-      { "type": "item", "code": "game:clothes-lowerbody-alchemist" },
-      { "type": "item", "code": "game:clothes-foot-alchemist" },
-      { "type": "item", "code": "game:clothes-waist-alchemist" }
+	{
+		"enabled": true,
+		"code": "artisan",
+		"traits": ["clothier","mender2","sailwright","spinthrift","potter","artisan","harmless"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" }
+		]
+	},
 
-    ]
-  },
+	{
+		"enabled": true,
+		"code": "trapper",
+		"traits": ["resourceful","furtive","serpentine","bowyer","tanner","claustrophobic"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" }
+		]
+	},
 
-  {
-    "enabled": true,
-    "code": "engineer",
-    "traits": ["precise", "seensomeshit","tinkerer2", "millwright", "sailwright", "shipwright","loud","lumbering"],
-    "gear": [
-      { "type": "item", "code": "game:clothes-head-merchant-hat" },
-      { "type": "item", "code": "game:clothes-upperbody-merchant-shirt" },
-      { "type": "item", "code": "game:clothes-lowerbody-merchant-pants" },
-      { "type": "item", "code": "game:clothes-foot-merchant-shoes" },
-      { "type": "item", "code": "game:clothes-arm-merchant-bracelet" },
-      { "type": "item", "code": "game:clothes-waist-merchant-belt" }
-    ]
-  },
+	{
+		"enabled": true,
+		"code": "drifter",
+		"traits": ["forager","pilferer","furtive","longstrider","angler","pathmaker","claustrophobic","brownthumb"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" }
+		]
+	},
 
-  {
-    "enabled": true,
-    "code": "farmhand",
-    "traits": ["forager","blackland","farmer","greenfingered","woodsman","claustrophobic","kind"],
-    "gear": [
-      { "type": "item", "code": "game:clothes-head-straw-hat" },
-      { "type": "item", "code": "game:clothes-upperbody-scribe" },
-      { "type": "item", "code": "game:clothes-lowerbody-scribe" },
-      { "type": "item", "code": "game:clothes-foot-scribe" },
-      { "type": "item", "code": "game:clothes-hand-scribe" },
-      { "type": "item", "code": "game:clothes-nadiya-waist-peasant1" }
-    ]
-  },
-
-  {
-    "enabled": true,
-    "code": "tunnelrat",
-    "traits": ["miner","pilferer","seensomeshit","digger","mason","kind","hungry"],
-    "gear": [
-      { "type": "item", "code": "game:clothes-shoulder-marketeer" },
-      { "type": "item", "code": "game:clothes-upperbody-marketeer" },
-      { "type": "item", "code": "game:clothes-lowerbody-marketeer" },
-      { "type": "item", "code": "game:clothes-foot-marketeer" },
-      { "type": "item", "code": "game:clothes-neck-marketeer" },
-      { "type": "item", "code": "game:clothes-nadiya-waist-miner-accessories" }
-    ]
-  },
-
-  {
-    "enabled": true,
-    "code": "artisan",
-    "traits": ["clothier","mender2","sailwright","spinthrift","potter","artisan","harmless"],
-    "gear": [
-      { "type": "item", "code": "game:clothes-head-lackey-hat" },
-      { "type": "item", "code": "game:clothes-upperbody-lackey-shirt" },
-      { "type": "item", "code": "game:clothes-lowerbody-lackey-breeches" },
-      { "type": "item", "code": "game:clothes-foot-lackey-shoes" },
-      { "type": "item", "code": "game:clothes-arm-bronze-bracelet" },
-      { "type": "item", "code": "game:clothes-hand-lackey-gloves" }
-    ]
-  },
-
-  {
-    "enabled": true,
-    "code": "trapper",
-    "traits": ["resourceful","furtive","serpentine","bowyer","tanner","claustrophobic"],
-    "gear": [
-      { "type": "item", "code": "game:clothes-head-hunter-cape" },
-      { "type": "item", "code": "game:clothes-shoulder-hunter-poncho" },
-      { "type": "item", "code": "game:clothes-upperbody-hunter-shirt" },
-      { "type": "item", "code": "game:clothes-upperbodyover-hunter-coat" },
-      { "type": "item", "code": "game:clothes-lowerbody-hunter-leggings" },
-      { "type": "item", "code": "game:clothes-foot-hunter-boots" },
-      { "type": "item", "code": "game:clothes-face-hunter-mask" },
-      { "type": "item", "code": "game:clothes-hand-hunter-gloves" },
-      { "type": "item", "code": "game:clothes-nadiya-waist-hunter" }
-
-    ]
-  },
-
-  {
-    "enabled": true,
-    "code": "drifter",
-    "traits": ["forager","pilferer","furtive","longstrider","angler","pathmaker","claustrophobic","brownthumb"],
-    "gear": [
-      { "type": "item", "code": "game:clothes-shoulder-survivor" },
-      { "type": "item", "code": "game:clothes-upperbody-miner" },
-      { "type": "item", "code": "game:clothes-upperbodyover-rotwalker" },
-      { "type": "item", "code": "game:clothes-lowerbody-rotwalker" },
-      { "type": "item", "code": "game:clothes-arm-rusty-wrist-manacles" },
-      { "type": "item", "code": "game:clothes-foot-rusty-ankle-manacles" },
-      { "type": "item", "code": "game:clothes-hand-survivor" },
-      { "type": "item", "code": "game:clothes-face-surgeon" }
-    ]
-  },
-
-  {
-    "enabled": true,
-    "code": "ironback",
-    "traits": [],
-    "gear": [
-      { "type": "item", "code": "game:clothes-shoulder-malefactor-cloak" },
-      { "type": "item", "code": "game:clothes-upperbody-malefactor-shirt" },
-      { "type": "item", "code": "game:clothes-upperbodyover-malefactor-tunic" },
-      { "type": "item", "code": "game:clothes-lowerbody-malefactor-trouser" },
-      { "type": "item", "code": "game:clothes-foot-malefactor-boots" },
-      { "type": "item", "code": "game:clothes-face-malefactor-mask" },
-      { "type": "item", "code": "game:clothes-hand-malefactor-gloves" },
-      { "type": "item", "code": "game:clothes-waist-malefactor-sash" }
-
-    ]
-  }
+	{
+		"enabled": true,
+		"code": "ironback",
+		"traits": [],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" }
+		]
+	}
 
 ]

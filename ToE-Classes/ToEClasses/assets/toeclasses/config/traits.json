@@ -27,12 +27,8 @@
         "attributes": {
         }
     },
-    {
-        "code": "carpenter",
-        "type": "positive",
-        "attributes": {
-        }
-    },
+
+    
     {
         "code": "clumsy",
         "type": "negative",
@@ -49,7 +45,7 @@
         }
     },
     {
-        "code": "heavymachinery",
+        "code": "machinist",
         "type": "positive",
         "attributes": {
         }
