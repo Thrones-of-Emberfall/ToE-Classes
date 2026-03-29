@@ -1,0 +1,75 @@
+[
+    {
+        "op": "add",
+        "file": "game:recipes/grid/bandage.json",
+        "path": "/0/requiresTrait",
+        "value": "apothecary"
+    },
+    {
+        "op": "add",
+        "file": "game:recipes/grid/bandage.json",
+        "path": "/1/requiresTrait",
+        "value": "apothecary"
+    },
+    {
+        "op": "add",
+        "file": "game:recipes/grid/bandage.json",
+        "path": "/2/requiresTrait",
+        "value": "apothecary"
+    },
+    {
+        "op": "add",
+        "file": "game:recipes/grid/bandage.json",
+        "path": "/3/requiresTrait",
+        "value": "apothecary"
+    },
+    {
+        "op": "add",
+        "file": "game:recipes/grid/bandage.json",
+        "path": "/4/requiresTrait",
+        "value": "apothecary"
+    },
+    {
+        "op": "add",
+        "file": "game:recipes/grid/bandage.json",
+        "path": "/5/requiresTrait",
+        "value": "apothecary"
+    },
+
+    {
+        "op": "add",
+        "file": "game:recipes/grid/poultice.json",
+        "path": "/0/requiresTrait",
+        "value": "apothecary"
+    },
+    {
+        "op": "add",
+        "file": "game:recipes/grid/poultice.json",
+        "path": "/1/requiresTrait",
+        "value": "apothecary"
+    },
+    {
+        "op": "add",
+        "file": "game:recipes/grid/poultice.json",
+        "path": "/2/requiresTrait",
+        "value": "apothecary"
+    },
+    {
+        "op": "add",
+        "file": "game:recipes/grid/poultice.json",
+        "path": "/3/requiresTrait",
+        "value": "apothecary"
+    },
+    {
+        "op": "add",
+        "file": "game:recipes/grid/poultice.json",
+        "path": "/4/requiresTrait",
+        "value": "apothecary"
+    },
+    {
+        "op": "add",
+        "file": "game:recipes/grid/poultice.json",
+        "path": "/5/requiresTrait",
+        "value": "apothecary"
+    }
+]

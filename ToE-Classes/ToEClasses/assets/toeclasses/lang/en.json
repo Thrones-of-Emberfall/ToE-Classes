@@ -1,7 +1,7 @@
 {
-    "game:trait-bubblebubble": "<font color=\"#84ff84\">• Bubble, Bubble </font>",
+    "game:trait-distiller": "<font color=\"#84ff84\">• Distiller </font>",
     "game:trait-mixer": "<font color=\"#84ff84\">• Mixer </font>",
-    "game:trait-hedgewitch": "<font color=\"#84ff84\">• Hedge Witch </font>",
+    "game:trait-apothecary": "<font color=\"#84ff84\">• Apothecary </font>",
 
     "game:trait-mason": "<font color=\"#84ff84\">• Mason </font>",
     "game:trait-carpenter": "<font color=\"#84ff84\">• Carpenter </font>",
@@ -61,7 +61,7 @@
     "game:charattribute-hungerrate-0.1": "+10% hunger rate",
     "game:charattribute-animalLootDropRate--0.1": "-10% animal loot",
 
-    "game:characterclass-apothecery": "Apothecary",
+    "game:characterclass-apothecary": "Apothecary",
     "game:characterclass-architect": "Architect",
     "game:characterclass-forger": "Forger",
     "game:characterclass-scullion": "Scullion",
@@ -73,7 +73,7 @@
     "game:characterclass-drifter": "Drifter",
     "game:characterclass-ironback": "Ironback",
 
-    "game:characterdesc-apothecery": "<font color=\"#A8E6A3\"><i>You have spent your life learning what grows, what heals and what kills. Herbs, tinctures and remedies fill your pack where weapons might fill another's. The line between medicine and poison is one you know well.</i></font>",
+    "game:characterdesc-apothecary": "<font color=\"#A8E6A3\"><i>You have spent your life learning what grows, what heals and what kills. Herbs, tinctures and remedies fill your pack where weapons might fill another's. The line between medicine and poison is one you know well.</i></font>",
 
     "game:characterdesc-architect": "<font color=\"#C4A882\"><i>Stone and timber are your language. You have raised walls, laid foundations and carved order from raw earth. Where others see wilderness, you see what could be built there.</i></font>",
 
@@ -95,5 +95,5 @@
 
     "game:characterdesc-ironback": "<font color=\"#FF8484\"><i>This is not a life you chose. It is one that was chosen for you. You were appointed to stand between your settlement and whatever comes for it. You hit harder, endure more and your armor bears the marks to prove it.</i></font>",
 
-    "toecbr:wrong-class": "You don't know how to do that."
+    "toeclasses:missing-trait": "You don't know how to do that."
 }

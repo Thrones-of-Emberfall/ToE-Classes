@@ -25,7 +25,7 @@ namespace ToEClasses
                 (api as ICoreClientAPI)?.TriggerIngameError(
                     null,
                     "classes-denied",
-                    Lang.Get("toecbr:wrong-class")
+                    Lang.Get("toeclasses:missing-trait")
                 );
             }
 

@@ -1,0 +1,116 @@
+[
+    {
+        "ingredientPattern": "H\tC",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:cattailtops",
+                "quantity": 4
+            },
+            "H": {
+                "type": "block",
+                "code": "game:flower-horsetail-free",
+                "quantity": 8
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:poultice-reed-horsetail",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "SBS\t_C_",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:cattailtops",
+                "quantity": 4
+            },
+            "S": {
+                "type": "item",
+                "code": "game:powder-sulfur",
+                "quantity": 2
+            },
+            "B": {
+                "type": "block",
+                "code": "game:bowl-*-fired"
+            }
+        },
+        "attributes": {
+            "liquidContainerProps": {
+                "requiresContent": {
+                    "type": "item",
+                    "code": "game:honeyportion"
+                },
+                "requiresLitres": 0.5
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:poultice-reed-honey-sulfur",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "H\tP",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:papyrustops",
+                "quantity": 4
+            },
+            "H": {
+                "type": "block",
+                "code": "game:flower-horsetail-free",
+                "quantity": 8
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:poultice-reed-horsetail",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "SBS\t_P_",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:papyrustops",
+                "quantity": 4
+            },
+            "S": {
+                "type": "item",
+                "code": "game:powder-sulfur",
+                "quantity": 2
+            },
+            "B": {
+                "type": "block",
+                "code": "game:bowl-*-fired"
+            }
+        },
+        "attributes": {
+            "liquidContainerProps": {
+                "requiresContent": {
+                    "type": "item",
+                    "code": "game:honeyportion"
+                },
+                "requiresLitres": 0.5
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:poultice-reed-honey-sulfur",
+            "quantity": 4
+        }
+    }
+]

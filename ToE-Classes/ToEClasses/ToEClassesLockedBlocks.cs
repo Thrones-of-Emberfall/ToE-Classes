@@ -9,6 +9,7 @@ namespace ToEClasses
         public const string Smith = "smith";
         public const string Machinist = "machinist";
         public const string Shipwright = "shipwright";
+        public const string Distiller = "distiller";
     }
 
     public class AnvilLocked : BlockAnvil
@@ -107,6 +108,31 @@ namespace ToEClasses
             }
 
             base.OnHeldInteractStart(slot, byEntity, blockSel, entitySel, firstEvent, ref handling);
+        }
+    }
+
+    public class BoilerLocked : BlockBoiler
+    {
+        public override bool TryPlaceBlock(IWorldAccessor world, IPlayer byPlayer, ItemStack itemstack, BlockSelection blockSel, ref string failureCode)
+        {
+            if (!ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Distiller))
+            {
+                ToELockUtils.DenyWithPopup(api);
+                failureCode = "__ignore__";
+                return false;
+            }
+
+            return base.TryPlaceBlock(world, byPlayer, itemstack, blockSel, ref failureCode);
+        }
+
+        public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
+        {
+            if (!ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Distiller))
+            {
+                return ToELockUtils.DenyWithPopup(api);
+            }
+
+            return base.OnBlockInteractStart(world, byPlayer, blockSel);
         }
     }
 }

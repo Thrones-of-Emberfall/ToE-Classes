@@ -16,6 +16,7 @@ public class ToEClassesModSystem : ModSystem
         api.RegisterBlockClass("HelveLocked", typeof(HelveLocked));
         api.RegisterBlockClass("PulverizerLocked", typeof(PulverizerLocked));
         api.RegisterItemClass("RollerLocked", typeof(RollerLocked));
+        api.RegisterBlockClass("BoilerLocked", typeof(BoilerLocked));
     }
 
     public override void StartServerSide(ICoreServerAPI api)
