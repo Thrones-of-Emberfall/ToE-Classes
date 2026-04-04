@@ -1,0 +1,37 @@
+[
+  {
+    "op": "add",
+    "path": "/0/requiresTrait",
+    "value": "pilferer",
+    "file": "game:recipes/grid/bomb.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/requiresTrait",
+    "value": "pilferer",
+    "file": "game:recipes/grid/bomb.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/requiresTrait",
+    "value": "pilferer",
+    "file": "game:recipes/grid/bomb.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/3/requiresTrait",
+    "value": "pilferer",
+    "file": "game:recipes/grid/bomb.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/4/requiresTrait",
+    "value": "pilferer",
+    "file": "game:recipes/grid/bomb.json",
+    "side": "Server"
+  }
+]

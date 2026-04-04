@@ -181,6 +181,7 @@
             "hungerrate": 0.1
         }
     },
+    
 
 
 
@@ -268,6 +269,8 @@
         "type": "negative",
         "attributes": {
         }
-    },
+    }
+    
+    
 
 ]
