@@ -1,0 +1,16 @@
+[
+  {
+    "dependsOn": [{ "modId": "artofgrowingpatch" }],
+    "file": "artofgrowing:recipes/grid/flail.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "blackland"
+  },
+  {
+    "dependsOn": [{ "modId": "artofgrowingpatch" }],
+    "file": "artofgrowing:recipes/grid/flail-sturdy.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "blackland"
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/belt.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/belt.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/pouch-bullet.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/pouch-bullet.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/pouch-sling.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/pouch-sling.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/quiver-arrows.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/quiver-arrows.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/quiver-bolts.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/quiver-bolts.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/quiver-javelins.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/quiver-javelins.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/saydak.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/saydak.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/sheath-general.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/sheath-general.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/sheath-pistol.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/sheath-pistol.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "quiversandsheaths" }],
+    "file": "quiversandsheaths:recipes/grid/sheath-pistol.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "tanner"
+  }
+  
+]

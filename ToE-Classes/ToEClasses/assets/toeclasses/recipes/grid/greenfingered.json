@@ -1,0 +1,43 @@
+[
+  {
+    "ingredientPattern": "S",
+    "requiresTrait": "greenfingered",
+    "ingredients": {
+      "S": {"type": "item", "code": "game:vegetable-*","name": "veggie","allowedVariants": [
+        "carrot",
+        "cabbage",
+        "onion",
+        "turnip",
+        "parsnip",
+        "pumpkin",
+        "cassava",
+        "bellpepper",
+        "fennel"
+      ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "item", "code": "game:seeds-{veggie}", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "S",
+    "requiresTrait": "greenfingered",
+    "ingredients": {
+      "S": {"type": "item", "code": "game:grain-*", "name": "grain", "allowedVariants": [
+        "spelt",
+        "rice",
+        "flax",
+        "rye",
+        "amaranth",
+        "sunflower"
+      ]
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "item", "code": "game:seeds-{grain}", "quantity": 1}
+  }
+]
