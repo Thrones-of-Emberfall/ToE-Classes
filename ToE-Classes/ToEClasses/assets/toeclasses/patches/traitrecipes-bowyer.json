@@ -1,0 +1,32 @@
+﻿[
+  {
+    "file": "game:recipes/grid/tool/bow.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "bowyer"
+  },
+  {
+    "file": "game:recipes/grid/tool/bow.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "bowyer"
+  },
+  {
+    "file": "game:recipes/grid/tool/bow.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "bowyer"
+  },
+  {
+    "file": "game:recipes/grid/tool/bow.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "bowyer"
+  },
+  {
+    "file": "game:recipes/grid/tool/bow.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "bowyer"
+  }
+]

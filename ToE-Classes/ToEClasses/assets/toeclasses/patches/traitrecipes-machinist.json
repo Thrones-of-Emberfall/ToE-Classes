@@ -1,79 +1,79 @@
 [
   {
     "file": "game:recipes/grid/hopper.json",
-    "op": "add",
+    "op": "addmerge",
     "path": "/requiresTrait",
     "value": "machinist"
   },
   {
     "file": "game:recipes/grid/chute.json",
-    "op": "add",
+    "op": "addmerge",
     "path": "/0/requiresTrait",
     "value": "machinist"
   },
   {
     "file": "game:recipes/grid/chute.json",
-    "op": "add",
+    "op": "addmerge",
     "path": "/1/requiresTrait",
     "value": "machinist"
   },
   {
     "file": "game:recipes/grid/chute.json",
-    "op": "add",
+    "op": "addmerge",
     "path": "/2/requiresTrait",
     "value": "machinist"
   },
   {
     "file": "game:recipes/grid/chute.json",
-    "op": "add",
+    "op": "addmerge",
     "path": "/3/requiresTrait",
     "value": "machinist"
   },
   {
     "file": "game:recipes/grid/chute.json",
-    "op": "add",
+    "op": "addmerge",
     "path": "/4/requiresTrait",
     "value": "machinist"
   },
   {
     "file": "game:recipes/grid/helvehammer.json",
-    "op": "add",
+    "op": "addmerge",
     "path": "/requiresTrait",
     "value": "machinist"
   },
   {
     "file": "game:recipes/grid/mechpowerblocks.json",
-    "op": "add",
+    "op": "addmerge",
     "path": "/12/requiresTrait",
     "value": "machinist"
   },
   {
     "file": "game:recipes/grid/mechpowerblocks-pulverizer.json",
-    "op": "add",
+    "op": "addmerge",
     "path": "/0/requiresTrait",
     "value": "machinist"
   },
   {
     "file": "game:recipes/grid/mechpowerblocks-pulverizer.json",
-    "op": "add",
+    "op": "addmerge",
     "path": "/1/requiresTrait",
     "value": "machinist"
   },
   {
     "file": "game:recipes/grid/mechpowerblocks-pulverizer.json",
-    "op": "add",
+    "op": "addmerge",
     "path": "/2/requiresTrait",
     "value": "machinist"
   },
   {
     "file": "game:recipes/grid/mechpowerblocks-pulverizer.json",
-    "op": "add",
+    "op": "addmerge",
     "path": "/3/requiresTrait",
     "value": "machinist"
   },
   {
     "file": "game:recipes/grid/scrapweaponkit.json",
-    "op": "add",
+    "op": "addmerge",
     "path": "/requiresTrait",
     "value": "machinist"
   }
