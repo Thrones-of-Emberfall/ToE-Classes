@@ -13,5 +13,7 @@
     "traitname-distiller": "Distiller",
     "traitname-apothecary": "Apothecary",
     "traitname-pathmaker": "Pathmaker",
-    "traitname-tanner" : "Tanner"
+    "traitname-tanner" : "Tanner",
+    "traitname-potter": "Potter",
+    "traitname-blackland": "Blackland"
 }
