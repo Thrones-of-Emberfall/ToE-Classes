@@ -67,5 +67,17 @@
     "op": "addmerge",
     "path": "/0/requiresTrait",
     "value": "tanner"
+  },
+
+  
+  
+  
+  
+  {
+    "dependsOn": [{ "modId": "butchering" }],
+    "file": "butchering:recipes/grid/smokingrack.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "mixer"
   }
 ]
