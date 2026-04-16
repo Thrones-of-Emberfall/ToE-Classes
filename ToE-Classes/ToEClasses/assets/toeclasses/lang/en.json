@@ -26,7 +26,8 @@
     "game:trait-farmer": "<font color=\"#84ff84\">• Farmer </font>",
     "game:trait-greenfingered": "<font color=\"#84ff84\">• Green Fingered </font>",
     "game:trait-woodsman": "<font color=\"#84ff84\">• Woodsman </font>",
-    
+
+    "game:trait-digger": "<font color=\"#84ff84\">• Digger </font>",
     "game:trait-miner": "<font color=\"#84ff84\">• Miner </font>",
     "game:trait-hungry": "<font color=\"#ff8484\">• Hungry </font>",
 

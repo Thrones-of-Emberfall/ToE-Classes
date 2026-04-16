@@ -155,7 +155,12 @@
 
 
 
-
+    {
+        "code": "digger",
+        "type": "positive",
+        "attributes": {
+        }
+    },
     {
         "code": "miner",
         "type": "positive",
