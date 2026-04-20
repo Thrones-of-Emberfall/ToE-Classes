@@ -1,0 +1,15 @@
+[
+  {
+    "ingredientPattern": "H_,ST,F_",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:arrowhead-*", "quantity": 3, "name": "metal" },
+      "T": { "type": "item", "code": "game:flaxtwine", "quantity": 1 },
+      "S": { "type": "item", "code": "game:stick", "quantity": 3 },
+      "F": { "type": "item", "code": "game:feather", "quantity": 3 }
+    },
+    "width": 2,
+    "height": 3,
+    "output": { "type": "item", "code": "game:arrow-{metal}", "quantity": 4 },
+    "requiresTrait": "smith"
+  }
+]
