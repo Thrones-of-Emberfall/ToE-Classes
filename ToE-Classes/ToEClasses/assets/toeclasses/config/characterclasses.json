@@ -72,7 +72,7 @@
 	{
 		"enabled": true,
 		"code": "forger",
-		"traits": [ "mender", "smith", "heavymachinery", "heavyhanded", "loud" ],
+		"traits": [ "mender", "smith", "machinist", "heavyhanded", "loud" ],
 		"gear": [
 			{
 				"type": "item",
