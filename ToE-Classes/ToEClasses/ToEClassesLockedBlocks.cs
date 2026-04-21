@@ -16,7 +16,7 @@ namespace ToEClasses
     {
         public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
         {
-            if (MetalTier > 2 && !ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Smith))
+            if (MetalTier > 1 && !ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Smith))
             {
                 return ToELockUtils.DenyWithPopup(api);
             }
