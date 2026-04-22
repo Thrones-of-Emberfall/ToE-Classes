@@ -119,6 +119,7 @@
     "code": "farmer",
     "type": "positive",
     "attributes": {
+      "produceDropRate": 0.3
     }
   },
   {
@@ -221,6 +222,7 @@
     "code": "brownthumb",
     "type": "negative",
     "attributes": {
+      "produceDropRate": -0.3
     }
   }
 ]

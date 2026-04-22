@@ -10,5 +10,68 @@
     "op": "addmerge",
     "path": "/1/requiresTrait",
     "value": "blackland"
+  },
+
+
+
+  {
+    "file": "game:recipes/grid/roofing.json",
+    "op": "addmerge",
+    "path": "/69/requiresTrait",
+    "value": "blackland"
+  },
+  {
+    "file": "game:recipes/grid/roofing.json",
+    "op": "addmerge",
+    "path": "/70/requiresTrait",
+    "value": "blackland"
+  },
+  {
+    "file": "game:recipes/grid/roofing.json",
+    "op": "addmerge",
+    "path": "/71/requiresTrait",
+    "value": "blackland"
+  },
+  {
+    "file": "game:recipes/grid/roofing.json",
+    "op": "addmerge",
+    "path": "/72/requiresTrait",
+    "value": "blackland"
+  },
+  {
+    "file": "game:recipes/grid/roofing.json",
+    "op": "addmerge",
+    "path": "/73/requiresTrait",
+    "value": "blackland"
+  },
+  {
+    "file": "game:recipes/grid/roofing.json",
+    "op": "addmerge",
+    "path": "/74/requiresTrait",
+    "value": "blackland"
+  },
+  {
+    "file": "game:recipes/grid/roofing.json",
+    "op": "addmerge",
+    "path": "/75/requiresTrait",
+    "value": "blackland"
+  },
+  {
+    "file": "game:recipes/grid/roofing.json",
+    "op": "addmerge",
+    "path": "/76/requiresTrait",
+    "value": "blackland"
+  },
+  {
+    "file": "game:recipes/grid/roofing.json",
+    "op": "addmerge",
+    "path": "/77/requiresTrait",
+    "value": "blackland"
+  },
+  {
+    "file": "game:recipes/grid/roofing.json",
+    "op": "addmerge",
+    "path": "/78/requiresTrait",
+    "value": "blackland"
   }
 ]
