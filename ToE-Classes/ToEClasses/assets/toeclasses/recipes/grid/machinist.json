@@ -1,0 +1,19 @@
+﻿[
+  {
+    "ingredientPattern": "SCS,SFS, H ",
+    "ingredients": {
+      "S": { "type": "block", "code": "game:metal-scraps" },
+      "F": { "type": "item", "code": "game:fat" },
+      "C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 1 },
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "game:metal-parts",
+      "quantity": 1
+    },
+    "requiresTrait": "machinist"
+  }
+]
