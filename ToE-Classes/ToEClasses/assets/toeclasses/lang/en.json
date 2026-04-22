@@ -60,6 +60,10 @@
     "game:charattribute-miningSpeedMul-0.4": "+40% mining speed",
     "game:charattribute-hungerrate-0.1": "+10% hunger rate",
     "game:charattribute-animalLootDropRate--0.1": "-10% animal loot",
+    "game:charattribute-produceDropRate-0.3": "+30% extra produce while harvesting planted crops",
+    "game:charattribute-produceDropRate--0.3": "-30% produce while harvesting planted crops",
+    "game:charattribute-oreDropRate-0.2": "+20% added chance to get double ore",
+
 
     "game:characterclass-apothecary": "Apothecary",
     "game:characterclass-architect": "Architect",

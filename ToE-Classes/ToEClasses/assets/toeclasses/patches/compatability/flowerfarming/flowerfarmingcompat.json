@@ -1,0 +1,49 @@
+﻿[
+  {
+    "dependsOn": [{ "modId": "flowerfarming" }],
+    "file": "flowerfarming:recipes/grid/croton-to-seed.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "apothecary"
+  },
+  
+  
+  
+  
+  {
+    "dependsOn": [{ "modId": "flowerfarming" }],
+    "file": "flowerfarming:recipes/grid/fern-to-seed.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "apothecary"
+  },
+  {
+    "dependsOn": [{ "modId": "flowerfarming" }],
+    "file": "flowerfarming:recipes/grid/fern-to-seed.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "apothecary"
+  },
+  
+  
+  
+  
+  {
+    "dependsOn": [{ "modId": "flowerfarming" }],
+    "file": "flowerfarming:recipes/grid/flower-to-seed.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "apothecary"
+  },
+  
+  
+  
+  
+  {
+    "dependsOn": [{ "modId": "flowerfarming" }],
+    "file": "flowerfarming:recipes/grid/rafflesia-to-seed.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "apothecary"
+  }
+]

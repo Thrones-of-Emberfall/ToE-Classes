@@ -1,0 +1,81 @@
+[
+  {
+    "dependsOn": [{ "modId": "orekiwoofsbeehives" }],
+    "file": "orekiwoofsbeehives:recipes/grid/beehive.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "apothecary"
+  },
+  
+  
+  
+  
+  {
+    "dependsOn": [{ "modId": "orekiwoofsbeehives" }],
+    "file": "orekiwoofsbeehives:recipes/grid/beehiveframe.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "apothecary"
+  },
+  {
+    "dependsOn": [{ "modId": "orekiwoofsbeehives" }],
+    "file": "orekiwoofsbeehives:recipes/grid/beehiveframe.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "apothecary"
+  },
+  {
+    "dependsOn": [{ "modId": "orekiwoofsbeehives" }],
+    "file": "orekiwoofsbeehives:recipes/grid/beehiveframe.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "apothecary"
+  },
+  {
+    "dependsOn": [{ "modId": "orekiwoofsbeehives" }],
+    "file": "orekiwoofsbeehives:recipes/grid/beehiveframe.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "apothecary"
+  },
+  {
+    "dependsOn": [{ "modId": "orekiwoofsbeehives" }],
+    "file": "orekiwoofsbeehives:recipes/grid/beehiveframe.json",
+    "op": "addmerge",
+    "path": "/4/requiresTrait",
+    "value": "apothecary"
+  },
+  
+  
+  
+  
+  {
+    "dependsOn": [{ "modId": "orekiwoofsbeehives" }],
+    "file": "orekiwoofsbeehives:recipes/grid/beehiveroof.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "apothecary"
+  },
+  
+  
+  
+  
+  {
+    "dependsOn": [{ "modId": "orekiwoofsbeehives" }],
+    "file": "orekiwoofsbeehives:recipes/grid/beehivestand.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "apothecary"
+  },
+  
+  
+  
+  
+  {
+    "dependsOn": [{ "modId": "orekiwoofsbeehives" }],
+    "file": "orekiwoofsbeehives:recipes/grid/honeycomb.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "apothecary"
+  }
+]
