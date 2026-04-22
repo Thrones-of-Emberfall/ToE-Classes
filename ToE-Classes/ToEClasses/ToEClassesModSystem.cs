@@ -17,7 +17,6 @@ public class ToEClassesModSystem : ModSystem
     {
         api.RegisterBlockClass("AnvilLocked", typeof(AnvilLocked));
         api.RegisterBlockClass("BellowsLocked", typeof(BellowLocked));
-        // api.RegisterBlockClass("GrindingWheelLocked", typeof(GrindingWheelLocked));
         api.RegisterBlockClass("HelveLocked", typeof(HelveLocked));
         api.RegisterBlockClass("PulverizerLocked", typeof(PulverizerLocked));
         api.RegisterItemClass("RollerLocked", typeof(RollerLocked));

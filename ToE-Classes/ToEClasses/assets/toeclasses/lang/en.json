@@ -74,27 +74,18 @@
     "game:characterclass-ironback": "Ironback",
 
     "game:characterdesc-apothecary": "<font color=\"#A8E6A3\"><i>You have spent your life learning what grows, what heals and what kills. Herbs, tinctures and remedies fill your pack where weapons might fill another's. The line between medicine and poison is one you know well.</i></font>",
-
     "game:characterdesc-architect": "<font color=\"#C4A882\"><i>Stone and timber are your language. You have raised walls, laid foundations and carved order from raw earth. Where others see wilderness, you see what could be built there.</i></font>",
-
     "game:characterdesc-forger": "<font color=\"#FF9F6B\"><i>The forge never sleeps and neither do you. Iron, steel and fire have shaped your hands and your life in equal measure. Without you, there are no tools, no weapons and no armor worth wearing.</i></font>",
-
     "game:characterdesc-scullion": "<font color=\"#FFD97D\"><i>You have fed armies, settlements and starving families with whatever the land offered. A fire and a pot are all you need. While others fight over resources, you turn them into something that keeps people alive.</i></font>",
-
     "game:characterdesc-engineer": "<font color=\"#82CFFF\"><i>Gears, levers and mechanical systems are second nature to you. You understand how things move, how they break and how to make them last. A settlement without an engineer is a settlement waiting to fail.</i></font>",
-
     "game:characterdesc-farmhand": "<font color=\"#A8D878\"><i>You were raised on soil and hard labor. Every season brings new work and the land does not wait for those who rest too long. You know crops, weather and the slow patience that farming demands.</i></font>",
-
     "game:characterdesc-tunnelrat": "<font color=\"#B0A090\"><i>The dark underground is your home. You have spent more time beneath the earth than above it, following veins of ore through cold stone. What others fear in the depths, you have long since made peace with.</i></font>",
-
     "game:characterdesc-artisan": "<font color=\"#E0A0D0\"><i>Your hands shape clay, thread and fabric into things of use and beauty. The work is slow and demanding but what you make outlasts those who made it. Fine goods and careful craft are your contribution to the world.</i></font>",
-
     "game:characterdesc-trapper": "<font color=\"#C8B87A\"><i>The wilderness is your workplace. You read tracks, set snares and move through the forest without disturbing it. Animals rarely hear you coming and that is exactly how you prefer it.</i></font>",
-
     "game:characterdesc-drifter": "<font color=\"#A0C8A0\"><i>No settlement has ever held you for long. You travel light, live off the land and know how to disappear when necessary. Roads, ruins and forgotten paths are more familiar to you than any hearth.</i></font>",
-
     "game:characterdesc-ironback": "<font color=\"#FF8484\"><i>This is not a life you chose. It is one that was chosen for you. You were appointed to stand between your settlement and whatever comes for it. You hit harder, endure more and your armor bears the marks to prove it.</i></font>",
 
     "toeclasses:missing-trait": "You don't know how to do that.",
-    "placefailure-toeclasses:missing-trait": "You don't know how to do that."
+    "placefailure-toeclasses:missing-trait": "You don't know how to do that.",
+    "toeclasses:anvil-tier-too-high": "You only know how to work in copper anvils."
 }
