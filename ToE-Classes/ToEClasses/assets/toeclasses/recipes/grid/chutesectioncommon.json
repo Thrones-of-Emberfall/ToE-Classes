@@ -1,0 +1,15 @@
+[
+  {
+    "ingredientPattern": "_I,_S,HP",
+    "ingredients": {
+      "I": { "type": "item", "tags": ["tool-solderingiron"], "isTool": true, "toolDurabilityCost": 2 },
+      "H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 2 },
+      "P": { "type": "item", "code": "game:metalplate-copper" },
+      "S": { "type": "item", "code": "game:solderbar-*", "quantity": 2, "name": "mat", "allowedVariants": ["tin", "silver"]  }
+    },
+    "width": 2,
+    "height": 3,
+    "output": { "type": "item", "code": "game:chutesection-copper", "quantity": 1  },
+    "recipeGroup": 1
+  }
+]
