@@ -1,0 +1,83 @@
+[
+  {
+    "dependsOn": [{ "modId": "butchering" }],
+    "file": "butchering:recipes/grid/butcherybags/butcherybaghide.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "butchering" }],
+    "file": "butchering:recipes/grid/butcherybags/butcherybaghide.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "butchering" }],
+    "file": "butchering:recipes/grid/butcherybags/butcherybaghide.json",
+    "op": "addmerge",
+    "path": "/2/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "butchering" }],
+    "file": "butchering:recipes/grid/butcherybags/butcherybaghide.json",
+    "op": "addmerge",
+    "path": "/3/requiresTrait",
+    "value": "tanner"
+  },
+
+  
+  
+  
+  {
+    "dependsOn": [{ "modId": "butchering" }],
+    "file": "butchering:recipes/grid/butcherybags/butcherybagleather.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tanner"
+  },
+  
+  
+  
+  
+  {
+    "dependsOn": [{ "modId": "butchering" }],
+    "file": "butchering:recipes/grid/butcherybags/butcherybagreed.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tanner"
+  },
+  {
+    "dependsOn": [{ "modId": "butchering" }],
+    "file": "butchering:recipes/grid/butcherybags/butcherybagreed.json",
+    "op": "addmerge",
+    "path": "/1/requiresTrait",
+    "value": "tanner"
+  },
+  
+  
+  
+  
+  
+  {
+    "dependsOn": [{ "modId": "butchering" }],
+    "file": "butchering:recipes/grid/butcherybags/butcherybagsturdyleather.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "tanner"
+  },
+
+  
+  
+  
+  
+  {
+    "dependsOn": [{ "modId": "butchering" }],
+    "file": "butchering:recipes/grid/smokingrack.json",
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "value": "mixer"
+  }
+]

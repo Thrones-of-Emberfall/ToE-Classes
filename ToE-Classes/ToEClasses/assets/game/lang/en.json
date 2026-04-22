@@ -11,5 +11,12 @@
     "traitname-shipwright": "Shipwright",
     "traitname-smith": "Smith",
     "traitname-distiller": "Distiller",
-    "traitname-apothecary": "Apothecary"
+    "traitname-apothecary": "Apothecary",
+    "traitname-pathmaker": "Pathmaker",
+    "traitname-tanner" : "Tanner",
+    "traitname-potter": "Potter",
+    "traitname-blackland": "Blackland",
+    "traitname-greenfingered": "Green Fingered",
+    "traitname-woodsman": "Woodsman",
+    "traitname-mixer": "Mixer"
 }

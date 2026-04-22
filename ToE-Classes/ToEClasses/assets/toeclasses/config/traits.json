@@ -78,8 +78,8 @@
         "type": "negative",
         "attributes": {
             "miningSpeedMul": -0.2,
-            "oreDropRate": -0.2
-
+            "oreDropRate": -0.2,
+            "woodDropRate": -0.2
         }
     },
 

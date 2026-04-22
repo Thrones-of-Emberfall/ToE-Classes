@@ -1,0 +1,24 @@
+﻿[
+  {
+    "ingredientPattern": "L_,LL,L_",
+    "requiresTrait": "tanner",
+    "ingredients": {
+      "L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 }
+    },
+    "width": 2,
+    "height": 3,
+    "name": "backpack",
+    "output": { "type": "item", "code": "game:backpack-normal"  }
+  },
+  {
+    "ingredientPattern": "L_,LL,L_",
+    "requiresTrait": "tanner",
+    "ingredients": {
+      "L": { "type": "item", "code": "game:leather-sturdy-plain", "quantity": 1 }
+    },
+    "width": 2,
+    "height": 3,
+    "name": "backpack",
+    "output": { "type": "item", "code": "game:backpack-sturdy"  }
+  }
+]
