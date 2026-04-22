@@ -125,5 +125,17 @@
     "path": "/requiresTrait",
     "value": "machinist",
     "side": "Server"
+  },
+  {
+    "file": "game:recipes/grid/verticalboiler.json",
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "value": "machinist"
+  },
+  {
+    "file": "game:recipes/grid/doors.json",
+    "op": "addmerge",
+    "path": "/7/requiresTrait",
+    "value": "machinist"
   }
 ]
