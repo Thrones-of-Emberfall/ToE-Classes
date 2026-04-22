@@ -28,10 +28,8 @@
 				"type": "item",
 				"code": "game:clothes-hand-tailor-gloves"
 			}
-
 		]
 	},
-
 	{
 		"enabled": true,
 		"code": "architect",
@@ -65,10 +63,8 @@
 				"type": "item",
 				"code": "game:clothes-waist-messenger-belt"
 			}
-
 		]
 	},
-
 	{
 		"enabled": true,
 		"code": "forger",
@@ -98,10 +94,8 @@
 				"type": "item",
 				"code": "game:clothes-waist-peasant-strap"
 			}
-
 		]
 	},
-
 	{
 		"enabled": true,
 		"code": "scullion",
@@ -131,10 +125,8 @@
 				"type": "item",
 				"code": "game:clothes-waist-alchemist"
 			}
-
 		]
 	},
-
 	{
 		"enabled": true,
 		"code": "engineer",
@@ -166,7 +158,6 @@
 			}
 		]
 	},
-
 	{
 		"enabled": true,
 		"code": "farmhand",
@@ -198,7 +189,6 @@
 			}
 		]
 	},
-
 	{
 		"enabled": true,
 		"code": "tunnelrat",
@@ -230,7 +220,6 @@
 			}
 		]
 	},
-
 	{
 		"enabled": true,
 		"code": "artisan",
@@ -262,7 +251,6 @@
 			}
 		]
 	},
-
 	{
 		"enabled": true,
 		"code": "trapper",
@@ -304,10 +292,8 @@
 				"type": "item",
 				"code": "game:clothes-nadiya-waist-hunter"
 			}
-
 		]
 	},
-
 	{
 		"enabled": true,
 		"code": "drifter",
@@ -347,7 +333,6 @@
 			}
 		]
 	},
-
 	{
 		"enabled": true,
 		"code": "ironback",
@@ -385,8 +370,6 @@
 				"type": "item",
 				"code": "game:clothes-waist-malefactor-sash"
 			}
-
 		]
 	}
-
 ]
