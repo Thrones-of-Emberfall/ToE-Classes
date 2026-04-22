@@ -8,9 +8,31 @@
   },
   {
     "file": "game:recipes/smithing/chutesection.json",
-    "op": "addmerge",
-    "path": "/requiresTrait",
-    "value": "machinist",
+    "op": "replace",
+    "path": "/pattern",
+    "value": [
+      [
+        "#####",
+        "#___#",
+        "#___#",
+        "#___#",
+        "#####"
+      ],
+      [
+        "#####",
+        "#___#",
+        "#___#",
+        "#___#",
+        "#####"
+      ],
+      [
+        "#####",
+        "#___#",
+        "#___#",
+        "#___#",
+        "#####"
+      ]
+    ],
     "side": "Server"
   },
   {
