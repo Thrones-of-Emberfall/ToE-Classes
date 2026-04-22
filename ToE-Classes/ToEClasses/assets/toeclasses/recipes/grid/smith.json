@@ -2,7 +2,7 @@
   {
     "ingredientPattern": "H_,ST,F_",
     "ingredients": {
-      "H": { "type": "item", "code": "game:arrowhead-*", "quantity": 3, "name": "metal" },
+      "H": { "type": "item", "code": "game:arrowhead-*", "quantity": 3, "name": "metal", "allowedVariants": ["copper", "blackbronze", "tinbronze", "bismuthbronze", "gold", "silver", "iron", "meteoriciron", "steel"] },
       "T": { "type": "item", "code": "game:flaxtwine", "quantity": 1 },
       "S": { "type": "item", "code": "game:stick", "quantity": 3 },
       "F": { "type": "item", "code": "game:feather", "quantity": 3 }
