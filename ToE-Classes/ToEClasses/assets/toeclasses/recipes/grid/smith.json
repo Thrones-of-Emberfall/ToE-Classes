@@ -10,6 +10,7 @@
     "width": 2,
     "height": 3,
     "output": { "type": "item", "code": "game:arrow-{metal}", "quantity": 4 },
-    "requiresTrait": "smith"
+    "requiresTrait": "smith",
+    "recipeGroup": 1
   }
 ]
