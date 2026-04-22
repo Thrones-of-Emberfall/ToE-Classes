@@ -95,5 +95,6 @@
 
     "game:characterdesc-ironback": "<font color=\"#FF8484\"><i>This is not a life you chose. It is one that was chosen for you. You were appointed to stand between your settlement and whatever comes for it. You hit harder, endure more and your armor bears the marks to prove it.</i></font>",
 
-    "toeclasses:missing-trait": "You don't know how to do that."
+    "toeclasses:missing-trait": "You don't know how to do that.",
+    "placefailure-toeclasses:missing-trait": "You don't know how to do that."
 }
