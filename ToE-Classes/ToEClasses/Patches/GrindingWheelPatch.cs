@@ -5,20 +5,17 @@ using Vintagestory.GameContent;
 namespace ToEClasses.Patches;
 
 [HarmonyPatchCategory("GrindingWheelLock")]
-public class GrindingWheelPatches
+public class GrindingWheelPatch
 {
     [HarmonyPrefix]
     [HarmonyPatch(typeof(BlockEntityGrindingWheel), nameof(BlockEntityGrindingWheel.OnInteractStart))]
-    public static bool BlockEntityGrindingWheelOnInteractStartPrefix(BlockEntityGrindingWheel __instance, IPlayer byPlayer)
+    public static bool BlockEntityGrindingWheelOnInteractStartPrefix(BlockEntityGrindingWheel __instance,
+        IPlayer byPlayer)
     {
-      var api = __instance.Api;
+        var api = __instance.Api;
 
-      if (!ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Smith))
-      {
+        if (ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Smith)) return true;
         ToELockUtils.DenyWithPopup(api);
         return false;
-      }
-
-      return true;
     }
 }
