@@ -1,4 +1,6 @@
+using Vintagestory.API.Client;
 using Vintagestory.API.Common;
+using Vintagestory.API.Config;
 using Vintagestory.GameContent;
 using Vintagestory.GameContent.Mechanics;
 
@@ -16,9 +18,9 @@ namespace ToEClasses
     {
         public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
         {
-            if (MetalTier > 2 && !ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Smith))
+            if (MetalTier > 1 && !ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Smith))
             {
-                return ToELockUtils.DenyWithPopup(api);
+                return ToELockUtils.DenyWithPopup(api, "toeclasses:anvil-tier-too-high");
             }
 
             return base.OnBlockInteractStart(world, byPlayer, blockSel);

@@ -63,7 +63,7 @@
     "game:charattribute-produceDropRate-0.3": "+30% extra produce while harvesting planted crops",
     "game:charattribute-produceDropRate--0.3": "-30% produce while harvesting planted crops",
     "game:charattribute-oreDropRate-0.2": "+20% added chance to get double ore",
-
+    "game:charattribute-woodDropRate--0.2": "-20% log drop rate",
 
     "game:characterclass-apothecary": "Apothecary",
     "game:characterclass-architect": "Architect",

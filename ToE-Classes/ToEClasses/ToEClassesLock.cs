@@ -18,14 +18,14 @@ namespace ToEClasses
             return charSys != null && charSys.HasTrait(player, traitCode);
         }
 
-        public static bool DenyWithPopup(ICoreAPI api)
+        public static bool DenyWithPopup(ICoreAPI api, string errorMessage = "toeclasses:missing-trait")
         {
             if (api.Side == EnumAppSide.Client)
             {
                 (api as ICoreClientAPI)?.TriggerIngameError(
                     null,
                     "classes-denied",
-                    Lang.Get("toeclasses:missing-trait")
+                    Lang.Get(errorMessage)
                 );
             }
 
