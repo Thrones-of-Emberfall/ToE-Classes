@@ -15,7 +15,8 @@ public class CollectibleObjectPatch
 
         var multiplier = material switch
         {
-            EnumBlockMaterial.Soil => forPlayer.Entity.Stats.GetBlended("soilDiggingSpeedMul"),
+            EnumBlockMaterial.Gravel or EnumBlockMaterial.Sand or EnumBlockMaterial.Soil => forPlayer.Entity.Stats
+                .GetBlended("soilDiggingSpeedMul"),
             _ => 1f
         };
 
