@@ -1,0 +1,208 @@
+[
+  {
+    "op": "replace",
+    "path": "/1",
+    "value": {
+      "ingredientPattern": "_L_,LCL,_L_",
+      "requiresTrait": "mason",
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "stone-*",
+          "name": "rock",
+          "allowedVariants": [
+            "andesite",
+            "chalk",
+            "chert",
+            "conglomerate",
+            "limestone",
+            "claystone",
+            "granite",
+            "sandstone",
+            "shale",
+            "basalt",
+            "peridotite",
+            "phyllite",
+            "slate",
+            "bauxite",
+            "suevite"
+          ]
+        },
+        "C": {
+          "type": "item",
+          "code": "stonebrick-*",
+          "name": "rock",
+          "allowedVariants": [
+            "andesite",
+            "chalk",
+            "chert",
+            "conglomerate",
+            "limestone",
+            "claystone",
+            "granite",
+            "sandstone",
+            "shale",
+            "basalt",
+            "peridotite",
+            "phyllite",
+            "slate",
+            "bauxite",
+            "suevite"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 3,
+      "output": {
+        "type": "block",
+        "code": "drystone-{rock}",
+        "quantity": 2
+      }
+    },
+    "file": "game:recipes/grid/drystone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2",
+    "value": {
+      "ingredientPattern": "ABC,DEF,GHI",
+      "ingredients": {
+        "A": {
+          "type": "item",
+          "code": "stone-bauxite"
+        },
+        "B": {
+          "type": "item",
+          "code": "stone-granite"
+        },
+        "C": {
+          "type": "item",
+          "code": "stone-limestone"
+        },
+        "D": {
+          "type": "item",
+          "code": "stone-conglomerate"
+        },
+        "F": {
+          "type": "item",
+          "code": "stone-andesite"
+        },
+        "G": {
+          "type": "item",
+          "code": "stone-claystone"
+        },
+        "H": {
+          "type": "item",
+          "code": "stone-chalk"
+        },
+        "I": {
+          "type": "item",
+          "code": "stone-phyllite"
+        },
+        "E": {
+          "type": "item",
+          "code": "stonebrick-*",
+          "name": "rock",
+          "allowedVariants": [
+            "andesite",
+            "chalk",
+            "chert",
+            "conglomerate",
+            "limestone",
+            "claystone",
+            "granite",
+            "sandstone",
+            "shale",
+            "basalt",
+            "peridotite",
+            "phyllite",
+            "slate",
+            "bauxite"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 3,
+      "output": {
+        "type": "block",
+        "code": "drystone-mixed",
+        "quantity": 1
+      }
+    },
+    "file": "game:recipes/grid/drystone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/3",
+    "value": {
+      "ingredientPattern": "ABC,DEF,GHI",
+      "requiresTrait": "mason",
+      "ingredients": {
+        "A": {
+          "type": "item",
+          "code": "stone-bauxite"
+        },
+        "B": {
+          "type": "item",
+          "code": "stone-granite"
+        },
+        "C": {
+          "type": "item",
+          "code": "stone-limestone"
+        },
+        "D": {
+          "type": "item",
+          "code": "stone-conglomerate"
+        },
+        "F": {
+          "type": "item",
+          "code": "stone-andesite"
+        },
+        "G": {
+          "type": "item",
+          "code": "stone-claystone"
+        },
+        "H": {
+          "type": "item",
+          "code": "stone-chalk"
+        },
+        "I": {
+          "type": "item",
+          "code": "stone-phyllite"
+        },
+        "E": {
+          "type": "item",
+          "code": "stonebrick-*",
+          "name": "rock",
+          "allowedVariants": [
+            "andesite",
+            "chalk",
+            "chert",
+            "conglomerate",
+            "limestone",
+            "claystone",
+            "granite",
+            "sandstone",
+            "shale",
+            "basalt",
+            "peridotite",
+            "phyllite",
+            "slate",
+            "bauxite"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 3,
+      "output": {
+        "type": "block",
+        "code": "drystone-mixed",
+        "quantity": 4
+      }
+    },
+    "file": "game:recipes/grid/drystone.json",
+    "side": "Server"
+  }
+]
