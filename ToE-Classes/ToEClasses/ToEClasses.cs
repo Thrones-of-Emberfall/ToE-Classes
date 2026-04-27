@@ -12,6 +12,7 @@ namespace ToEClasses
         public const string Machinist = "machinist";
         public const string Shipwright = "shipwright";
         public const string Distiller = "distiller";
+        public const string Stitcher = "stitcher";
     }
 
     public class AnvilLocked : BlockAnvil
