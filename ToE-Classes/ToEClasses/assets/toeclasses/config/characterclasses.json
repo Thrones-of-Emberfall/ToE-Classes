@@ -223,7 +223,7 @@
 	{
 		"enabled": true,
 		"code": "artisan",
-		"traits": [ "clothier", "mender2", "sailwright", "spinthrift", "potter", "artisan", "harmless" ],
+		"traits": [ "clothier", "stitcher", "sailwright", "spinthrift", "potter", "artisan", "harmless" ],
 		"gear": [
 			{
 				"type": "item",
