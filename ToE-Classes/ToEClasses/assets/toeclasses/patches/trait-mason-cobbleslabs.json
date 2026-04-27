@@ -1,0 +1,95 @@
+[
+  {
+    "op": "replace",
+    "path": "/",
+    "value": [
+      {
+        "ingredientPattern": "_C_\tLLL",
+        "ingredients": {
+          "C": {
+            "type": "item",
+            "code": "clay-*"
+          },
+          "L": {
+            "type": "item",
+            "code": "stone-*",
+            "name": "rock",
+            "allowedVariants": [
+              "andesite",
+              "chalk",
+              "chert",
+              "conglomerate",
+              "limestone",
+              "claystone",
+              "granite",
+              "sandstone",
+              "shale",
+              "basalt",
+              "peridotite",
+              "phyllite",
+              "slate",
+              "bauxite",
+              "kimberlite",
+              "suevite",
+              "whitemarble",
+              "redmarble",
+              "greenmarble"
+            ]
+          }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+          "type": "block",
+          "code": "cobblestoneslab-{rock}-down-free",
+          "quantity": 2
+        }
+      },
+      {
+        "ingredientPattern": "_C_\tLLL",
+        "requiresTrait": "mason",
+        "ingredients": {
+          "C": {
+            "type": "item",
+            "code": "clay-*"
+          },
+          "L": {
+            "type": "item",
+            "code": "stone-*",
+            "name": "rock",
+            "allowedVariants": [
+              "andesite",
+              "chalk",
+              "chert",
+              "conglomerate",
+              "limestone",
+              "claystone",
+              "granite",
+              "sandstone",
+              "shale",
+              "basalt",
+              "peridotite",
+              "phyllite",
+              "slate",
+              "bauxite",
+              "kimberlite",
+              "suevite",
+              "whitemarble",
+              "redmarble",
+              "greenmarble"
+            ]
+          }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+          "type": "block",
+          "code": "cobblestoneslab-{rock}-down-free",
+          "quantity": 4
+        }
+      }
+    ],
+    "file": "game:recipes/grid/slabs/cobbleslabs.json",
+    "side": "Server"
+  }
+]
