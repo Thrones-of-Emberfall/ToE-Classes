@@ -138,6 +138,7 @@
     "code": "digger",
     "type": "positive",
     "attributes": {
+      "soilDiggingSpeedMul": 0.3
     }
   },
   {
