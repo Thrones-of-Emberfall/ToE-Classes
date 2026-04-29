@@ -5,7 +5,7 @@ using Vintagestory.GameContent;
 
 namespace ToEClasses
 {
-    public static class ToELockUtils
+    public static class ToEClassesUtils
     {
         public static bool HasTrait(ICoreAPI api, IPlayer player, string traitCode)
         {

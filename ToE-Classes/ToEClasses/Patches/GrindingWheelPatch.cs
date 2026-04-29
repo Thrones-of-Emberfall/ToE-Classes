@@ -14,8 +14,8 @@ public class GrindingWheelPatch
     {
         var api = __instance.Api;
 
-        if (ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Smith)) return true;
-        ToELockUtils.DenyWithPopup(api);
+        if (ToEClassesUtils.HasTrait(api, byPlayer, Traits.Smith)) return true;
+        ToEClassesUtils.DenyWithPopup(api);
         return false;
     }
 }

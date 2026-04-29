@@ -1,12 +1,10 @@
-using Vintagestory.API.Client;
 using Vintagestory.API.Common;
-using Vintagestory.API.Config;
 using Vintagestory.GameContent;
 using Vintagestory.GameContent.Mechanics;
 
 namespace ToEClasses
 {
-    internal static class LockRequirements
+    internal static class Traits
     {
         public const string Smith = "smith";
         public const string Machinist = "machinist";
@@ -19,9 +17,9 @@ namespace ToEClasses
     {
         public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
         {
-            if (MetalTier > 1 && !ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Smith))
+            if (MetalTier > 1 && !ToEClassesUtils.HasTrait(api, byPlayer, Traits.Smith))
             {
-                return ToELockUtils.DenyWithPopup(api, "toeclasses:anvil-tier-too-high");
+                return ToEClassesUtils.DenyWithPopup(api, "toeclasses:anvil-tier-too-high");
             }
 
             return base.OnBlockInteractStart(world, byPlayer, blockSel);
@@ -32,9 +30,9 @@ namespace ToEClasses
     {
         public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
         {
-            if (!ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Smith))
+            if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Smith))
             {
-                return ToELockUtils.DenyWithPopup(api);
+                return ToEClassesUtils.DenyWithPopup(api);
             }
 
             return base.OnBlockInteractStart(world, byPlayer, blockSel);
@@ -45,9 +43,9 @@ namespace ToEClasses
     {
         public override bool TryPlaceBlock(IWorldAccessor world, IPlayer byPlayer, ItemStack itemstack, BlockSelection blockSel, ref string failureCode)
         {
-            if (!ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Machinist))
+            if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Machinist))
             {
-                ToELockUtils.DenyWithPopup(api);
+                ToEClassesUtils.DenyWithPopup(api);
                 failureCode = "__ignore__";
                 return false;
             }
@@ -57,9 +55,9 @@ namespace ToEClasses
 
         public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
         {
-            if (!ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Machinist))
+            if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Machinist))
             {
-                return ToELockUtils.DenyWithPopup(api);
+                return ToEClassesUtils.DenyWithPopup(api);
             }
 
             return base.OnBlockInteractStart(world, byPlayer, blockSel);
@@ -70,9 +68,9 @@ namespace ToEClasses
     {
         public override bool TryPlaceBlock(IWorldAccessor world, IPlayer byPlayer, ItemStack itemstack, BlockSelection blockSel, ref string failureCode)
         {
-            if (!ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Machinist))
+            if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Machinist))
             {
-                ToELockUtils.DenyWithPopup(api);
+                ToEClassesUtils.DenyWithPopup(api);
                 failureCode = "__ignore__";
                 return false;
             }
@@ -82,9 +80,9 @@ namespace ToEClasses
 
         public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
         {
-            if (!ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Machinist))
+            if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Machinist))
             {
-                return ToELockUtils.DenyWithPopup(api);
+                return ToEClassesUtils.DenyWithPopup(api);
             }
 
             return base.OnBlockInteractStart(world, byPlayer, blockSel);
@@ -103,9 +101,9 @@ namespace ToEClasses
         {
             IPlayer player = (byEntity as EntityPlayer)?.Player;
 
-            if (!ToELockUtils.HasTrait(api, player, LockRequirements.Shipwright))
+            if (!ToEClassesUtils.HasTrait(api, player, Traits.Shipwright))
             {
-                ToELockUtils.DenyWithPopup(api);
+                ToEClassesUtils.DenyWithPopup(api);
                 handling = EnumHandHandling.PreventDefault;
                 return;
             }
@@ -118,9 +116,9 @@ namespace ToEClasses
     {
         public override bool TryPlaceBlock(IWorldAccessor world, IPlayer byPlayer, ItemStack itemstack, BlockSelection blockSel, ref string failureCode)
         {
-            if (!ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Distiller))
+            if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Distiller))
             {
-                ToELockUtils.DenyWithPopup(api);
+                ToEClassesUtils.DenyWithPopup(api);
                 failureCode = "__ignore__";
                 return false;
             }
@@ -130,9 +128,9 @@ namespace ToEClasses
 
         public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
         {
-            if (!ToELockUtils.HasTrait(api, byPlayer, LockRequirements.Distiller))
+            if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Distiller))
             {
-                return ToELockUtils.DenyWithPopup(api);
+                return ToEClassesUtils.DenyWithPopup(api);
             }
 
             return base.OnBlockInteractStart(world, byPlayer, blockSel);
