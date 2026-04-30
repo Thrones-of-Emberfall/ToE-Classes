@@ -1,6 +1,7 @@
 ﻿[
   {
-    "ingredientPattern": "_L_ LCL _L_",
+    "ingredientPattern": "_L_,LCL,_L_",
+    "requiresTrait": "mason",
     "ingredients": {
       "C": { 
         "type": "item", 
@@ -22,7 +23,7 @@
     }
   },
   {
-    "ingredientPattern": "SLG,LLL,LLL",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["andesite", "granite", "peridotite", "phyllite"] },
@@ -30,7 +31,7 @@
       "L": { "type": "item", "code": "stone-andesite" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-andesite-north", "quantity": 4 }
   },
   {
@@ -63,7 +64,7 @@
     "output": { "type": "block", "code": "cobblestonefan-mixed-north", "quantity": 4 }
   },
   {
-    "ingredientPattern": "SLG, _L_, _L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["bauxite", "chert", "claystone", "sandstone"] },
@@ -71,11 +72,11 @@
       "L": { "type": "item", "code": "stone-bauxite" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-bauxite-north", "quantity": 4 }
   },
   {
-    "ingredientPattern": "SLG, _L_, _L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["chalk", "limestone",] },
@@ -83,11 +84,11 @@
       "L": { "type": "item", "code": "stone-chalk" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-chalk-north", "quantity": 4 }
   },
   {
-    "ingredientPattern": "SLG, _L_, _L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["chert", "conglomerate", "claystone", "sandstone", "phyllite"] },
@@ -95,11 +96,11 @@
       "L": { "type": "item", "code": "stone-chert" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-chert-north", "quantity": 4 }
   },
   {
-    "ingredientPattern": "SLG, _L_, _L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["conglomerate", "claystone", "limestone", "sandstone", "phyllite"] },
@@ -107,11 +108,11 @@
       "L": { "type": "item", "code": "stone-claystone" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-claystone-north", "quantity": 4 }
   },
   {
-    "ingredientPattern": "SLG, _L_, _L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["conglomerate", "claystone", "limestone", "sandstone", "phyllite"] },
@@ -119,11 +120,11 @@
       "L": { "type": "item", "code": "stone-conglomerate" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-conglomerate-north", "quantity": 4 }
   },
   {
-    "ingredientPattern": "SLG, _L_, _L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["andesite", "granite", "peridotite", "phyllite"] },
@@ -131,11 +132,11 @@
       "L": { "type": "item", "code": "stone-granite" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-granite-north", "quantity": 4 }
   },
   {
-    "ingredientPattern": "SLG, _L_, _L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["chalk", "limestone",] },
@@ -143,11 +144,11 @@
       "L": { "type": "item", "code": "stone-limestone" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-limestone-north", "quantity": 4 }
   },
   {
-    "ingredientPattern": "SLG, _L_, _L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["andesite", "granite", "peridotite", "phyllite"] },
@@ -155,11 +156,11 @@
       "L": { "type": "item", "code": "stone-peridotite" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-peridotite-north", "quantity": 4 }
   },
   {
-    "ingredientPattern": "SLG, _L_, _L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["conglomerate", "claystone", "sandstone", "phyllite"] },
@@ -167,11 +168,11 @@
       "L": { "type": "item", "code": "stone-phyllite" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-phyllite-north", "quantity": 4 }
   },
   {
-    "ingredientPattern": "SLG, _L_, _L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["conglomerate", "claystone", "limestone", "sandstone", "phyllite"] },
@@ -179,11 +180,11 @@
       "L": { "type": "item", "code": "stone-sandstone" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-sandstone-north", "quantity": 4 }
   },
   {
-    "ingredientPattern": "SLG, _L_, _L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["basalt", "shale", "slate"] },
@@ -191,22 +192,11 @@
       "L": { "type": "item", "code": "stone-shale" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-shale-north", "quantity": 4 }
   },
   {
     "ingredientPattern": "SLG,LLL",
-    "ingredients": {
-      "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["basalt", "shale", "slate"] },
-      "S": { "type": "block", "code": "sand-*" },
-      "L": { "type": "item", "code": "stone-shale" }
-    },
-    "width": 3,
-    "height": 3,
-    "output": { "type": "block", "code": "cobblestonefan-shale-north", "quantity": 4 }
-  },
-  {
-    "ingredientPattern": "SLG, _L_, _L_",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["basalt", "shale", "slate"] },
@@ -214,11 +204,11 @@
       "L": { "type": "item", "code": "stone-slate" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-slate-north", "quantity": 4 }
   },
   {
-    "ingredientPattern": "SLG, _L_, _L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["andesite", "granite", "peridotite", "phyllite"] },
@@ -226,11 +216,11 @@
       "L": { "type": "item", "code": "stone-kimberlite" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-kimberlite-north", "quantity": 4 }
   },
   {
-    "ingredientPattern": "SLG, _L_, _L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["andesite", "granite", "peridotite", "phyllite"] },
@@ -238,11 +228,11 @@
       "L": { "type": "item", "code": "stone-suevite" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-suevite-north", "quantity": 4 }
   },
   {
-    "ingredientPattern": "SLG, _L_, _L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["chalk", "limestone"] },
@@ -250,11 +240,11 @@
       "L": { "type": "item", "code": "stone-whitemarble" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-whitemarble-north", "quantity": 4 }
   },
   {
-    "ingredientPattern": "SLG, _L_, _L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["chalk", "limestone"] },
@@ -262,11 +252,11 @@
       "L": { "type": "item", "code": "stone-redmarble" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-redmarble-north", "quantity": 4 }
   },
   {
-    "ingredientPattern": "SLG, _L_, _L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "G": { "type": "block", "code": "gravel-*", "name": "rock", "allowedVariants": ["chalk", "limestone"] },
@@ -274,7 +264,7 @@
       "L": { "type": "item", "code": "stone-greenmarble" }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonefan-greenmarble-north", "quantity": 4 }
   },
   {
@@ -290,40 +280,40 @@
     "output": { "type": "item", "code": "stonebrick-{rock}", "quantity": 4 }
   },
   {
-    "ingredientPattern": "_L_	LCL	_L_",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "C": { "type": "item", "code": "mortar" },
       "L": { "type": "item", "code": "stonebrick-*", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "basalt", "peridotite", "phyllite", "sandstone", "shale", "slate", "bauxite", "suevite", "travertine"] }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "stonebricks-{rock}", "quantity": 4 }
   },
   {
-    "ingredientPattern": "__L	_CL	LLL",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "C": { "type": "item", "code": "mortar" },
       "L": { "type": "item", "code": "stonebrick-*", "name": "rock", "allowedVariants": ["andesite", "basalt", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "peridotite", "phyllite", "sandstone", "shale", "slate", "bauxite", "suevite", "travertine"] }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "stonebrickstairs-{rock}-up-north-free", "quantity": 4 }
   },
   {
-    "ingredientPattern": "__L	_CL	LLL",
+    "ingredientPattern": "SLG,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "C": { "type": "item", "code": "clay-*" },
       "L": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble"] }
     },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": { "type": "block", "code": "cobblestonestairs-{rock}-up-north-free", "quantity": 4 }
   },
   {
-    "ingredientPattern": "_C_	LLL ___",
+    "ingredientPattern": "_C_,LLL",
     "requiresTrait": "mason",
     "ingredients": {
       "C": { "type": "item", "code": "clay-*" },
