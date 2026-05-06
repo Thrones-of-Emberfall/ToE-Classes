@@ -12,6 +12,6 @@ public static class BlockCookedContainerBasePatch
     public static void OnBlockInteractStartPrefix(BlockCookedContainerBase __instance, ItemSlot bowlSlot,
         ItemSlot potslot, IWorldAccessor world)
     {
-        potslot.Itemstack?.Attributes.RemoveAttribute("sealedByDirtyApron");
+        potslot.Itemstack?.Attributes.RemoveAttribute(Attributes.SealedByDirtyApron);
     }
 }

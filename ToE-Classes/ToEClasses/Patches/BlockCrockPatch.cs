@@ -22,7 +22,7 @@ public static class BlockCrockPatch
         if (slot.Itemstack == null) return true;
         if (!__instance.IsFullAndUnsealed(slot.Itemstack)) return true;
         if (!ToEClassesUtils.HasTrait(byPlayer.Entity.Api, byPlayer, Traits.DirtyApron)) return true;
-        slot.Itemstack.Attributes.SetBool("sealedByDirtyApron", true);
+        slot.Itemstack.Attributes.SetBool(Attributes.SealedByDirtyApron, true);
         return true;
     }
 
@@ -35,7 +35,7 @@ public static class BlockCrockPatch
             transType != EnumTransitionType.Perish ||
             world.BlockAccessor.GetBlock(pos) is not BlockCrock block ||
             !blockEntity.Sealed ||
-            !block.Attributes["sealedByDirtyApron"].AsBool())
+            !block.Attributes[Attributes.SealedByDirtyApron].AsBool())
             return;
         if (blockEntity.RecipeCode == null) return;
         __result *= 0.667f;
@@ -52,7 +52,7 @@ public static class BlockCrockPatch
         if (attributes == null || !attributes.GetAsBool("sealed")) return;
 
         if (attributes.GetString("recipeCode") == null) return;
-        if (attributes.GetBool("cookedByDirtyApron")) __result *= 0.9f;
-        if (attributes.GetBool("sealedByDirtyApron")) __result *= 0.667f;
+        if (attributes.GetBool(Attributes.CookedByDirtyApron)) __result *= 0.9f;
+        if (attributes.GetBool(Attributes.SealedByDirtyApron)) __result *= 0.667f;
     }
 }

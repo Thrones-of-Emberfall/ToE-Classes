@@ -16,7 +16,7 @@ public static class CollectibleObjectPatch
         var multiplier = material switch
         {
             EnumBlockMaterial.Gravel or EnumBlockMaterial.Sand or EnumBlockMaterial.Soil => forPlayer.Entity.Stats
-                .GetBlended("soilDiggingSpeedMul"),
+                .GetBlended(Attributes.DiggingSpeed),
             _ => 1f
         };
 
@@ -30,6 +30,6 @@ public static class CollectibleObjectPatch
     {
         if (transType != EnumTransitionType.Perish) return;
         if (inSlot.Itemstack == null) return;
-        if (inSlot.Itemstack.Attributes.GetAsBool("cookedByDirtyApron")) __result *= 0.9f;
+        if (inSlot.Itemstack.Attributes.GetAsBool(Attributes.CookedByDirtyApron)) __result *= 0.9f;
     }
 }
