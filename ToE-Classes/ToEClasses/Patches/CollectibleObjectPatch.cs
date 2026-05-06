@@ -21,7 +21,15 @@ public class CollectibleObjectPatch
         };
 
         __result *= multiplier;
-        forPlayer.Entity.Api.Logger.Debug("[{0}] Mining Speed for {1}: {2}", forPlayer.Entity.Api.Side, block.Code,
-            __result);
+    }
+
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(CollectibleObject), nameof(CollectibleObject.GetTransitionRateMul))]
+    private static void GetTransitionRateMulPostfix(ref float __result, IWorldAccessor world, ItemSlot inSlot,
+        EnumTransitionType transType)
+    {
+        if (transType != EnumTransitionType.Perish) return;
+        if (inSlot.Itemstack == null) return;
+        if (inSlot.Itemstack.Attributes.GetAsBool("cookedByDirtyApron")) __result *= 0.9f;
     }
 }
