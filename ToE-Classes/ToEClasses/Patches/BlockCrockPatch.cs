@@ -51,7 +51,6 @@ public static class BlockCrockPatch
         if (attributes == null || !attributes.GetAsBool("sealed")) return;
 
         if (attributes.GetString("recipeCode") == null) return;
-        if (attributes.GetBool(Attributes.CookedByDirtyApron)) __result *= 0.9f;
         if (attributes.GetBool(Attributes.SealedByDirtyApron)) __result *= 0.667f;
     }
 }

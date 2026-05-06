@@ -22,13 +22,4 @@ public static class CollectibleObjectPatch
 
         __result *= multiplier;
     }
-
-    [HarmonyPostfix]
-    [HarmonyPatch(typeof(CollectibleObject), nameof(CollectibleObject.GetTransitionRateMul))]
-    private static void GetTransitionRateMulPostfix(ref float __result, ItemSlot inSlot, EnumTransitionType transType)
-    {
-        if (transType != EnumTransitionType.Perish) return;
-        if (inSlot.Itemstack == null) return;
-        if (inSlot.Itemstack.Attributes.GetAsBool(Attributes.CookedByDirtyApron)) __result *= 0.9f;
-    }
 }

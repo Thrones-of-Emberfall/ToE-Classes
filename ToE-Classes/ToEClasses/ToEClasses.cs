@@ -16,7 +16,6 @@ namespace ToEClasses
 
     internal static class Attributes
     {
-        public const string CookedByDirtyApron = "cookedByDirtyApron";
         public const string SealedByDirtyApron = "sealedByDirtyApron";
         public const string DiggingSpeed = "soilDiggingSpeedMul";
     }
