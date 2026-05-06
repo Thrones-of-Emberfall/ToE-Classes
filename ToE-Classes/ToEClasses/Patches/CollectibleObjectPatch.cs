@@ -4,7 +4,7 @@ using Vintagestory.API.Common;
 namespace ToEClasses.Patches;
 
 [HarmonyPatchCategory("CollectibleBehaviour")]
-public class CollectibleObjectPatch
+public static class CollectibleObjectPatch
 {
     [HarmonyPostfix]
     [HarmonyPatch(typeof(CollectibleObject), nameof(CollectibleObject.GetMiningSpeed))]

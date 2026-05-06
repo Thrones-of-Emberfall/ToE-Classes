@@ -5,7 +5,7 @@ using Vintagestory.GameContent;
 namespace ToEClasses.Patches;
 
 [HarmonyPatchCategory("CollectibleBehaviorWearable")]
-public class CollectibleBehaviorWearablePatch
+public static class CollectibleBehaviorWearablePatch
 {
     [HarmonyPrefix]
     [HarmonyPatch(typeof(CollectibleBehaviorWearable), nameof(CollectibleBehaviorWearable.TryMergeStacks))]

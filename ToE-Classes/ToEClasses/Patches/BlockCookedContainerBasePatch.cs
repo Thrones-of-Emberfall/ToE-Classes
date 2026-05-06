@@ -5,7 +5,7 @@ using Vintagestory.GameContent;
 namespace ToEClasses.Patches;
 
 [HarmonyPatchCategory("BlockCookedContainerBase")]
-public class BlockCookedContainerBasePatch
+public static class BlockCookedContainerBasePatch
 {
     [HarmonyPrefix]
     [HarmonyPatch(typeof(BlockCookedContainerBase), nameof(BlockCookedContainerBase.ServeIntoStack))]

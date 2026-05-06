@@ -6,7 +6,7 @@ using Vintagestory.GameContent;
 namespace ToEClasses.Patches;
 
 [HarmonyPatchCategory("BlockCrock")]
-public class BlockCrockPatch
+public static class BlockCrockPatch
 {
     [HarmonyPrefix]
     [HarmonyPatch(typeof(BlockCrock), nameof(BlockCrock.OnContainedInteractStart))]

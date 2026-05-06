@@ -5,7 +5,7 @@ using Vintagestory.GameContent;
 namespace ToEClasses.Patches;
 
 [HarmonyPatchCategory("GrindingWheelLock")]
-public class GrindingWheelPatch
+public static class GrindingWheelPatch
 {
     [HarmonyPrefix]
     [HarmonyPatch(typeof(BlockEntityGrindingWheel), nameof(BlockEntityGrindingWheel.OnInteractStart))]
