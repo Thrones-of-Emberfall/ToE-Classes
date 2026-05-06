@@ -9,8 +9,7 @@ public static class BlockCookedContainerBasePatch
 {
     [HarmonyPrefix]
     [HarmonyPatch(typeof(BlockCookedContainerBase), nameof(BlockCookedContainerBase.ServeIntoStack))]
-    public static void OnBlockInteractStartPrefix(BlockCookedContainerBase __instance, ItemSlot bowlSlot,
-        ItemSlot potslot, IWorldAccessor world)
+    public static void OnBlockInteractStartPrefix(ItemSlot potslot)
     {
         potslot.Itemstack?.Attributes.RemoveAttribute(Attributes.SealedByDirtyApron);
     }

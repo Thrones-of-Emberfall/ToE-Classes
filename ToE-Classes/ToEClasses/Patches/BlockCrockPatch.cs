@@ -10,8 +10,7 @@ public static class BlockCrockPatch
 {
     [HarmonyPrefix]
     [HarmonyPatch(typeof(BlockCrock), nameof(BlockCrock.OnContainedInteractStart))]
-    public static bool OnContainedInteractStartPrefix(BlockCrock __instance, BlockEntityContainer be, ItemSlot slot,
-        IPlayer byPlayer, BlockSelection blockSel)
+    public static bool OnContainedInteractStartPrefix(BlockCrock __instance, ItemSlot slot, IPlayer byPlayer)
     {
         var activeHotbarSlot = byPlayer.InventoryManager.ActiveHotbarSlot;
         var itemstack = activeHotbarSlot.Itemstack;
@@ -43,8 +42,8 @@ public static class BlockCrockPatch
 
     [HarmonyPostfix]
     [HarmonyPatch(typeof(BlockCrock), nameof(BlockCrock.GetContainingTransitionModifierContained))]
-    public static void GetContainingTransitionModifierPlacedPostfix(ref float __result, IWorldAccessor world,
-        ItemSlot inSlot, EnumTransitionType transType)
+    public static void GetContainingTransitionModifierPlacedPostfix(ref float __result, ItemSlot inSlot,
+        EnumTransitionType transType)
     {
         if (transType != EnumTransitionType.Perish) return;
         var itemStack = inSlot.Itemstack;

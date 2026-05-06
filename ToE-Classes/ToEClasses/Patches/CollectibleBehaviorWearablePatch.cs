@@ -9,8 +9,7 @@ public static class CollectibleBehaviorWearablePatch
 {
     [HarmonyPrefix]
     [HarmonyPatch(typeof(CollectibleBehaviorWearable), nameof(CollectibleBehaviorWearable.TryMergeStacks))]
-    public static bool TryMergeStacksPrefix(ref CollectibleBehaviorWearable __instance, ItemStackMergeOperation op,
-        ref EnumHandling handling)
+    public static bool TryMergeStacksPrefix(ItemStackMergeOperation op, ref EnumHandling handling)
     {
         var player = op.ActingPlayer;
         var api = op.World.Api;

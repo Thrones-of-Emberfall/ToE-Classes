@@ -25,8 +25,7 @@ public static class CollectibleObjectPatch
 
     [HarmonyPostfix]
     [HarmonyPatch(typeof(CollectibleObject), nameof(CollectibleObject.GetTransitionRateMul))]
-    private static void GetTransitionRateMulPostfix(ref float __result, IWorldAccessor world, ItemSlot inSlot,
-        EnumTransitionType transType)
+    private static void GetTransitionRateMulPostfix(ref float __result, ItemSlot inSlot, EnumTransitionType transType)
     {
         if (transType != EnumTransitionType.Perish) return;
         if (inSlot.Itemstack == null) return;
