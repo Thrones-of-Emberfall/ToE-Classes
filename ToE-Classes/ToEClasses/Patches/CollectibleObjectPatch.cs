@@ -4,7 +4,7 @@ using Vintagestory.API.Common;
 namespace ToEClasses.Patches;
 
 [HarmonyPatchCategory("CollectibleBehaviour")]
-public class CollectibleObjectPatch
+public static class CollectibleObjectPatch
 {
     [HarmonyPostfix]
     [HarmonyPatch(typeof(CollectibleObject), nameof(CollectibleObject.GetMiningSpeed))]
@@ -16,12 +16,10 @@ public class CollectibleObjectPatch
         var multiplier = material switch
         {
             EnumBlockMaterial.Gravel or EnumBlockMaterial.Sand or EnumBlockMaterial.Soil => forPlayer.Entity.Stats
-                .GetBlended("soilDiggingSpeedMul"),
+                .GetBlended(Attributes.DiggingSpeed),
             _ => 1f
         };
 
         __result *= multiplier;
-        forPlayer.Entity.Api.Logger.Debug("[{0}] Mining Speed for {1}: {2}", forPlayer.Entity.Api.Side, block.Code,
-            __result);
     }
 }

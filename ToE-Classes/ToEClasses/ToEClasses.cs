@@ -11,6 +11,13 @@ namespace ToEClasses
         public const string Shipwright = "shipwright";
         public const string Distiller = "distiller";
         public const string Stitcher = "stitcher";
+        public const string DirtyApron = "dirtyapron";
+    }
+
+    internal static class Attributes
+    {
+        public const string SealedByDirtyApron = "sealedByDirtyApron";
+        public const string DiggingSpeed = "soilDiggingSpeedMul";
     }
 
     public class AnvilLocked : BlockAnvil
