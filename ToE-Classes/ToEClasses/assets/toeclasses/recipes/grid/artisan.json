@@ -1,0 +1,2510 @@
+﻿[
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:daubraw-green",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-green"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-pine", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:quicklime",
+        "quantity": 4
+      },
+      "B": {
+        "type": "item",
+        "code": "game:lime",
+        "quantity": 4
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-rain", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "SD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:charcoal",
+        "quantity": 4
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-loam", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:charcoal",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-white"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-rime", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:charcoal",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-blue"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-void", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:quicklime",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-blue"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-waves", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:quicklime",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-black"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-talik", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:charcoal",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-green"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-abyss", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:powder-iron-oxide",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-green"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-patina", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:powder-iron-oxide",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-blue"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-chains", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:powder-iron-oxide",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-red"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-copper", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:charcoal",
+        "quantity": 4
+      },
+      "B": {
+        "type": "item",
+        "code": "game:quicklime",
+        "quantity": 4
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-cowrie", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:lime",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-blue"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-rutile", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:stone-peridotite",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-yellow"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-golden", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "SD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:daubraw-tan",
+        "quantity": 4
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-earthen", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:daubraw-tan",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-green"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-seasalt", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:crushed-iron",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-blue"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-oxblood", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:charcoal",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-yellow"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-beehive", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:stone-peridotite",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-orange"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-harvest", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:crushed-lapislazuli",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-gray"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-chthonic", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:stone-peridotite",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-black"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-honeydew", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:crushed-iron",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-green"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-serpents", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:crushed-iron",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-gray"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-volcanic", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:daubraw-tan",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-red"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-collonade", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:daubraw-green",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-gray"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-motheaten", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:daubraw-green",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-orange"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-cloisonne", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:crushed-lapislazuli",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-white"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-wintersea", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:crushed-lapislazuli",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-blue"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-cornflower", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:daubraw-tan",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-black"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-entrenched", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:powder-lapislazuli",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-gray"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-ashforest", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:powder-lapislazuli",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-white"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-caveaurora", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:lime",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-green"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-undergrowth", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:lime",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-white"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-rattlesnake", "quantity": 1}
+  },
+  {
+    "ingredientPattern": "BSD",
+    "requiresTrait": "artisan",
+    "ingredients": {
+      "S": {"type": "block", "code": "game:storagevessel-*","allowedVariants": [
+        "copper",
+        "brown-fired",
+        "blue-fired",
+        "fire-fired",
+        "earthyorange-fired",
+        "orange-fired",
+        "cream-fired",
+        "springflowers",
+        "undergrowth",
+        "caveaurora",
+        "rattlesnake",
+        "black-fired",
+        "gray-fired",
+        "ashforest",
+        "cornflower",
+        "entrenched",
+        "wintersea",
+        "cloisonne",
+        "collonade",
+        "motheaten",
+        "red-fired",
+        "tan-fired",
+        "chthonic",
+        "honeydew",
+        "serpents",
+        "volcanic",
+        "oxblood",
+        "harvest",
+        "beehive",
+        "seasalt",
+        "earthen",
+        "cowrie",
+        "golden",
+        "rutile",
+        "chains",
+        "patina",
+        "talik",
+        "abyss",
+        "waves",
+        "void",
+        "rain",
+        "rime",
+        "loam",
+        "pine"
+      ]
+      },
+      "D": {
+        "type": "item",
+        "code": "game:daubraw-green",
+        "quantity": 4
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-red"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {"type": "block", "code": "game:storagevessel-springflowers", "quantity": 1}
+  }
+]
