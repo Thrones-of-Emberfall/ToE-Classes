@@ -6,13 +6,15 @@
     "traitdesc-distiller": "Can install and work with boilers",
     "traitdesc-apothecary": "Can craft basic healing items more efficiently, exclusive access to advanced healing items",
     "traitdesc-stitcher": "Allows you to repair clothes",
-
+    "traitdesc-artisan": "Can create exclusive decorated pottery and luxurious furniture",
+    
     "traitname-machinist": "Machinist",
     "traitname-sailwright": "Sailwright",
     "traitname-shipwright": "Shipwright",
     "traitname-smith": "Smith",
     "traitname-distiller": "Distiller",
     "traitname-apothecary": "Apothecary",
+    "traitname-artisan": "Artisan",
     "traitname-pathmaker": "Pathmaker",
     "traitname-tanner" : "Tanner",
     "traitname-potter": "Potter",
