@@ -1,7 +1,7 @@
 {
   "Type": "code",
   "Name": "ToEClasses",
-  "Version": "0.1.0",
+  "Version": "0.1.1",
   "Description": "All classes for ToE",
   "Website": "",
   "ModID": "toeclasses",
@@ -13,8 +13,10 @@
   "Side": "Universal",
   "RequiredOnClient": true,
   "RequiredOnServer": true,
-  "Dependencies": {
-    "game" : "",
-    "playermodellib": ""
-  }
+    "Dependencies": {
+        "game": "",
+        "playermodellib": "",
+        "substrate": "",
+        "aculinaryartillery": ""
+    }
 }
