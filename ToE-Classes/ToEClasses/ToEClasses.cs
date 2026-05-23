@@ -1,146 +1,204 @@
+using System.Reflection;
+using HarmonyLib;
 using Vintagestory.API.Common;
 using Vintagestory.GameContent;
 using Vintagestory.GameContent.Mechanics;
 
-namespace ToEClasses
+namespace ToEClasses;
+
+
+[HarmonyPatchCategory("AnvilLock")]
+[HarmonyPatch]
+public class BlockAnvil_OnBlockInteractStart_Patch
 {
-    internal static class Traits
+    static MethodBase TargetMethod() => AccessTools.Method(typeof(BlockAnvil), "OnBlockInteractStart");
+
+    [HarmonyPrefix]
+    public static bool Prefix(BlockAnvil __instance, IPlayer byPlayer, ref bool __result)
     {
-        public const string Smith = "smith";
-        public const string Machinist = "machinist";
-        public const string Shipwright = "shipwright";
-        public const string Distiller = "distiller";
-        public const string Stitcher = "stitcher";
-        public const string DirtyApron = "dirtyapron";
+        var api = byPlayer.Entity.World.Api;
+        if (__instance.MetalTier > 1 && !ToEClassesUtils.HasTrait(api, byPlayer, Traits.Smith))
+        {
+            __result = ToEClassesUtils.DenyWithPopup(api);
+            return false;
+        }
+        return true;
+    }
+}
+
+
+[HarmonyPatchCategory("BellowsLock")]
+[HarmonyPatch]
+public class BlockBellows_OnBlockInteractStart_Patch
+{
+    static MethodBase TargetMethod() => AccessTools.Method(typeof(BlockBellows), "OnBlockInteractStart");
+
+    [HarmonyPrefix]
+    public static bool Prefix(IPlayer byPlayer, ref bool __result)
+    {
+        var api = byPlayer.Entity.World.Api;
+        if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Smith))
+        {
+            __result = ToEClassesUtils.DenyWithPopup(api);
+            return false;
+        }
+        return true;
+    }
+}
+
+
+[HarmonyPatchCategory("HelveLock")]
+[HarmonyPatch]
+public class BlockHelveHammer_OnBlockInteractStart_Patch
+{
+    static MethodBase TargetMethod() => AccessTools.Method(typeof(BlockHelveHammer), "OnBlockInteractStart");
+
+    [HarmonyPrefix]
+    public static bool Prefix(IPlayer byPlayer, ref bool __result)
+    {
+        var api = byPlayer.Entity.World.Api;
+        if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Machinist))
+        {
+            __result = ToEClassesUtils.DenyWithPopup(api);
+            return false;
+        }
+        return true;
+    }
+}
+
+
+[HarmonyPatchCategory("PulverizerLock")]
+[HarmonyPatch]
+public class BlockPulverizer_OnBlockInteractStart_Patch
+{
+    static MethodBase TargetMethod() => AccessTools.Method(typeof(BlockPulverizer), "OnBlockInteractStart");
+
+    [HarmonyPrefix]
+    public static bool Prefix(IPlayer byPlayer, ref bool __result)
+    {
+        var api = byPlayer.Entity.World.Api;
+        if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Machinist))
+        {
+            __result = ToEClassesUtils.DenyWithPopup(api);
+            return false;
+        }
+        return true;
+    }
+}
+
+
+[HarmonyPatchCategory("BoilerLock")]
+[HarmonyPatch]
+public class BlockBoiler_OnBlockInteractStart_Patch
+{
+    static MethodBase TargetMethod() => AccessTools.Method(typeof(BlockBoiler), "OnBlockInteractStart");
+
+    [HarmonyPrefix]
+    public static bool Prefix(IPlayer byPlayer, ref bool __result)
+    {
+        var api = byPlayer.Entity.World.Api;
+        if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Distiller))
+        {
+            __result = ToEClassesUtils.DenyWithPopup(api);
+            return false;
+        }
+        return true;
+    }
+}
+
+[HarmonyPatchCategory("RollerLock")]
+public class ItemRoller_OnHeldInteractStart_Patch
+{
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(ItemRoller), methodName: "OnHeldInteractStart")]
+    public static bool Prefix(EntityAgent byEntity, ref EnumHandHandling handling)
+    {
+        var api = byEntity.World.Api;
+        IPlayer player = (byEntity as EntityPlayer)?.Player;
+
+        if (!ToEClassesUtils.HasTrait(api, player, Traits.Shipwright))
+        {
+            ToEClassesUtils.DenyWithPopup(api);
+            handling = EnumHandHandling.PreventDefault;
+            return false;
+        }
+
+        return true;
+    }
+}
+
+
+[HarmonyPatchCategory("MixingBowlLock")]
+[HarmonyPatch]
+public class BlockMixingBowl_OnBlockInteractStart_Patch
+{
+    static MethodBase TargetMethod()
+    {
+        var type = AccessTools.TypeByName("ACulinaryArtillery.BlockMixingBowl");
+        return type == null ? null : AccessTools.DeclaredMethod(type, "OnBlockInteractStart");
     }
 
-    internal static class Attributes
-    {
-        public const string SealedByDirtyApron = "sealedByDirtyApron";
-        public const string DiggingSpeed = "soilDiggingSpeedMul";
-    }
+    static bool Prepare() => TargetMethod() != null;
 
-    public class AnvilLocked : BlockAnvil
+    [HarmonyPrefix]
+    public static bool Prefix(IPlayer byPlayer, ref bool __result)
     {
-        public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
+        var api = byPlayer.Entity.World.Api;
+        if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Mixer))
         {
-            if (MetalTier > 1 && !ToEClassesUtils.HasTrait(api, byPlayer, Traits.Smith))
-            {
-                return ToEClassesUtils.DenyWithPopup(api, "toeclasses:anvil-tier-too-high");
-            }
-
-            return base.OnBlockInteractStart(world, byPlayer, blockSel);
+            __result = ToEClassesUtils.DenyWithPopup(api);
+            return false;
         }
+        return true;
     }
+}
 
-    public class BellowLocked : BlockBellows
+
+[HarmonyPatchCategory("TinctureLock")]
+[HarmonyPatch]
+public class BlockEntityBarrel_GetCanSeal_Patch
+{
+    static MethodBase TargetMethod() => AccessTools.Method(typeof(BlockEntityBarrel), "GetCanSeal");
+
+    [HarmonyPostfix]
+    public static void Postfix(BlockEntityBarrel __instance, IPlayer byPlayer, ref bool __result)
     {
-        public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
+        if (!__result) return;
+
+        var outputCode = __instance.CurrentRecipe?.Output?.ResolvedItemStack?.Collectible.Code?.Path;
+        if (outputCode == null || !outputCode.StartsWith("tinctureportion")) return;
+
+        var api = __instance.Api;
+        if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Apothecary))
         {
-            if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Smith))
-            {
-                return ToEClassesUtils.DenyWithPopup(api);
-            }
-
-            return base.OnBlockInteractStart(world, byPlayer, blockSel);
-        }
-    }
-
-    public class HelveLocked : BlockHelveHammer
-    {
-        public override bool TryPlaceBlock(IWorldAccessor world, IPlayer byPlayer, ItemStack itemstack, BlockSelection blockSel, ref string failureCode)
-        {
-            if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Machinist))
-            {
-                ToEClassesUtils.DenyWithPopup(api);
-                failureCode = "__ignore__";
-                return false;
-            }
-
-            return base.TryPlaceBlock(world, byPlayer, itemstack, blockSel, ref failureCode);
-        }
-
-        public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
-        {
-            if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Machinist))
-            {
-                return ToEClassesUtils.DenyWithPopup(api);
-            }
-
-            return base.OnBlockInteractStart(world, byPlayer, blockSel);
+            __result = false;
+            ToEClassesUtils.DenyWithPopup(api);
         }
     }
+}
 
-    public class PulverizerLocked : BlockPulverizer
+[HarmonyPatchCategory("MushroomGrowerLock")]
+[HarmonyPatch]
+public class BehaviorMushroomGrower_OnBlockInteractStart_Patch
+{
+    static MethodBase TargetMethod()
     {
-        public override bool TryPlaceBlock(IWorldAccessor world, IPlayer byPlayer, ItemStack itemstack, BlockSelection blockSel, ref string failureCode)
-        {
-            if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Machinist))
-            {
-                ToEClassesUtils.DenyWithPopup(api);
-                failureCode = "__ignore__";
-                return false;
-            }
-
-            return base.TryPlaceBlock(world, byPlayer, itemstack, blockSel, ref failureCode);
-        }
-
-        public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
-        {
-            if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Machinist))
-            {
-                return ToEClassesUtils.DenyWithPopup(api);
-            }
-
-            return base.OnBlockInteractStart(world, byPlayer, blockSel);
-        }
+        var type = AccessTools.TypeByName("Substrate.Behaviors.BehaviorMushroomGrower");
+        return type == null ? null : AccessTools.DeclaredMethod(type, "OnBlockInteractStart");
     }
 
-    public class RollerLocked : ItemRoller
+    static bool Prepare() => TargetMethod() != null;
+
+    [HarmonyPrefix]
+    public static bool Prefix(IPlayer byPlayer, ref EnumHandling handling, ref bool __result)
     {
-        public override void OnHeldInteractStart(
-            ItemSlot slot,
-            EntityAgent byEntity,
-            BlockSelection blockSel,
-            EntitySelection entitySel,
-            bool firstEvent,
-            ref EnumHandHandling handling)
+        var api = byPlayer.Entity.World.Api;
+        if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Farmer))
         {
-            IPlayer player = (byEntity as EntityPlayer)?.Player;
-
-            if (!ToEClassesUtils.HasTrait(api, player, Traits.Shipwright))
-            {
-                ToEClassesUtils.DenyWithPopup(api);
-                handling = EnumHandHandling.PreventDefault;
-                return;
-            }
-
-            base.OnHeldInteractStart(slot, byEntity, blockSel, entitySel, firstEvent, ref handling);
+            __result = ToEClassesUtils.DenyWithPopup(api);
+            handling = EnumHandling.PreventSubsequent;
+            return false;
         }
-    }
-
-    public class BoilerLocked : BlockBoiler
-    {
-        public override bool TryPlaceBlock(IWorldAccessor world, IPlayer byPlayer, ItemStack itemstack, BlockSelection blockSel, ref string failureCode)
-        {
-            if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Distiller))
-            {
-                ToEClassesUtils.DenyWithPopup(api);
-                failureCode = "__ignore__";
-                return false;
-            }
-
-            return base.TryPlaceBlock(world, byPlayer, itemstack, blockSel, ref failureCode);
-        }
-
-        public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
-        {
-            if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Distiller))
-            {
-                return ToEClassesUtils.DenyWithPopup(api);
-            }
-
-            return base.OnBlockInteractStart(world, byPlayer, blockSel);
-        }
+        return true;
     }
 }

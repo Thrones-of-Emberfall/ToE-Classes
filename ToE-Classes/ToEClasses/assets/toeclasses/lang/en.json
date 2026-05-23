@@ -48,16 +48,16 @@
 
     "game:traitdesc-mixer": "Can make exclusive use of mixing bowls",
     "game:traitdesc-dirtyapron": "Food stays fresh 50% longer in crocks you seal",
-    
+
     "game:traitdesc-spinthrift": "Spins flax fiber into twine more efficiently",
     "game:traitdesc-potter": "Spins flax fiber into twine more efficiently",
     "game:traitdesc-artisan": "Can create exclusive decorated pottery and luxurious furniture",
 
     "game:traitdesc-tanner": "Exclusive craftable leather goods, and cheaper recipe for backpacks",
-    
+
     "game:traitdesc-angler": "Recipe of Fishing Rod locked to Wayfarer",
     "game:traitdesc-pathmaker": "Crafts paths more efficiently",
-    
+
     "game:traitdesc-mason": "",
 
     "game:traitdesc-tinkerer": "",
@@ -65,7 +65,7 @@
 
     "game:traitdesc-greenfingered": "Can extract seeds from produce, craft rich soil and soil boosters",
     "game:traitdesc-woodsman": "Produces more firewood when chopping logs, can craft sticks from firewood",
-    
+
     "game:charattribute-miningSpeedMul--0.1": "-10% mining speed",
     "game:charattribute-animalSeekingRange-0.35": "+35% animal detection range",
     "game:charattribute-animalSeekingRange--0.2": "-20% animal detection range",
@@ -112,5 +112,21 @@
     "game:characterdesc-ironback": "<font color=\"#FF8484\"><i>This is not a life you chose. It is one that was chosen for you. You were appointed to stand between your settlement and whatever comes for it. You hit harder, endure more and your armor bears the marks to prove it.</i></font>",
 
     "toeclasses:missing-trait": "You don't know how to do that.",
-    "toeclasses:missing-stitcher-trait": "You don't know how repair clothes."
+    "toeclasses:missing-stitcher-trait": "You don't know how repair clothes.",
+
+    "item-fruitmacerate-raspberry": "Raspberry Macerate",
+    "item-fruitmacerate-elderberry": "Elderberry Macerate",
+    "item-fruitmacerate-rosehip": "Rosehip Macerate",
+    "item-fruitmacerate-orange": "Orange Peel Macerate",
+    "item-fruitmacerate-citron": "Citron Peel Macerate",
+    "item-fruitmacerate-lime": "Lime Peel Macerate",
+    "item-fruitmacerate-grapefruit": "Grapefruit Peel Macerate",
+    "item-fruitmacerate-ivy": "Ivy Macerate",
+    "item-fruitmacerate-aronia": "Aronia Macerate",
+    "item-fruitmacerate-bearberry": "Bearberry Macerate",
+    "item-fruitmacerate-chili": "Chili Macerate",
+    "item-fruitmacerate-passionflower": "Passionflower Macerate",
+    "item-fruitmacerate-cloudberry": "Cloudberry Macerate",
+    "item-fruitmacerate-hawthorn": "Hawthorn Macerate",
+    "item-fruitmacerate-juniper": "Juniper Macerate"
 }
