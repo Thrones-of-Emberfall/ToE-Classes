@@ -112,21 +112,5 @@
     "game:characterdesc-ironback": "<font color=\"#FF8484\"><i>This is not a life you chose. It is one that was chosen for you. You were appointed to stand between your settlement and whatever comes for it. You hit harder, endure more and your armor bears the marks to prove it.</i></font>",
 
     "toeclasses:missing-trait": "You don't know how to do that.",
-    "toeclasses:missing-stitcher-trait": "You don't know how repair clothes.",
-
-    "item-fruitmacerate-raspberry": "Raspberry Macerate",
-    "item-fruitmacerate-elderberry": "Elderberry Macerate",
-    "item-fruitmacerate-rosehip": "Rosehip Macerate",
-    "item-fruitmacerate-orange": "Orange Peel Macerate",
-    "item-fruitmacerate-citron": "Citron Peel Macerate",
-    "item-fruitmacerate-lime": "Lime Peel Macerate",
-    "item-fruitmacerate-grapefruit": "Grapefruit Peel Macerate",
-    "item-fruitmacerate-ivy": "Ivy Macerate",
-    "item-fruitmacerate-aronia": "Aronia Macerate",
-    "item-fruitmacerate-bearberry": "Bearberry Macerate",
-    "item-fruitmacerate-chili": "Chili Macerate",
-    "item-fruitmacerate-passionflower": "Passionflower Macerate",
-    "item-fruitmacerate-cloudberry": "Cloudberry Macerate",
-    "item-fruitmacerate-hawthorn": "Hawthorn Macerate",
-    "item-fruitmacerate-juniper": "Juniper Macerate"
+    "toeclasses:missing-stitcher-trait": "You don't know how repair clothes."
 }
