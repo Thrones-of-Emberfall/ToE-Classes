@@ -192,7 +192,7 @@
 	{
 		"enabled": true,
 		"code": "tunnelrat",
-		"traits": [ "miner", "pilferer", "seensomeshit", "digger", "mason", "kind", "hungry" ],
+		"traits": [ "miner", "pilferer", "seensomeshit", "digger", "kind", "hungry" ],
 		"gear": [
 			{
 				"type": "item",
