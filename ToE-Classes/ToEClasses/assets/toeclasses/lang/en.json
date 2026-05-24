@@ -50,7 +50,7 @@
     "game:traitdesc-dirtyapron": "Food stays fresh 50% longer in crocks you seal",
 
     "game:traitdesc-spinthrift": "Spins flax fiber into twine more efficiently",
-    "game:traitdesc-potter": "Spins flax fiber into twine more efficiently",
+    "game:traitdesc-potter": "Can craft mortar, plaster, bricks and refractory bricks at lower costs",
     "game:traitdesc-artisan": "Can create exclusive decorated pottery and luxurious furniture",
 
     "game:traitdesc-tanner": "Exclusive craftable leather goods, and cheaper recipe for backpacks",
@@ -58,7 +58,7 @@
     "game:traitdesc-angler": "Recipe of Fishing Rod locked to Wayfarer",
     "game:traitdesc-pathmaker": "Crafts paths more efficiently",
 
-    "game:traitdesc-mason": "Crafts cobblestone and drystone more efficiently; can directly make ashlar blocks from stones.",
+    "game:traitdesc-mason": "Crafts cobblestone and drystone more efficiently; can directly make ashlar blocks from stones",
 
     "game:traitdesc-tinkerer": "Can craft epic stuff!!! PLACEHOLDER",
     "game:traitdesc-millwright": "Crafts mechanical parts more efficiently, and can exclusively craft many advanced parts. Can craft boards more effectively",
