@@ -15,8 +15,6 @@
   "RequiredOnServer": true,
     "Dependencies": {
         "game": "",
-        "playermodellib": "",
-        "substrate": "",
-        "aculinaryartillery": ""
+        "playermodellib": ""
     }
 }
