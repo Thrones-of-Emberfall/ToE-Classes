@@ -27,26 +27,6 @@ public class BlockAnvil_OnBlockInteractStart_Patch
 }
 
 
-[HarmonyPatchCategory("BellowsLock")]
-[HarmonyPatch]
-public class BlockBellows_OnBlockInteractStart_Patch
-{
-    static MethodBase TargetMethod() => AccessTools.Method(typeof(BlockBellows), "OnBlockInteractStart");
-
-    [HarmonyPrefix]
-    public static bool Prefix(IPlayer byPlayer, ref bool __result)
-    {
-        var api = byPlayer.Entity.World.Api;
-        if (!ToEClassesUtils.HasTrait(api, byPlayer, Traits.Smith))
-        {
-            __result = ToEClassesUtils.DenyWithPopup(api);
-            return false;
-        }
-        return true;
-    }
-}
-
-
 [HarmonyPatchCategory("HelveLock")]
 [HarmonyPatch]
 public class BlockHelveHammer_OnBlockInteractStart_Patch
