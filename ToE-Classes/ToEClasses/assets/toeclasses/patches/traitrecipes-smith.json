@@ -1,0 +1,218 @@
+[
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/daggers.json",
+        "path": "/0/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/halberd.json",
+        "path": "/0/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/javelinhead.json",
+        "path": "/0/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/javelinhead.json",
+        "path": "/1/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/longaxehead.json",
+        "path": "/0/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/macehead.json",
+        "path": "/0/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/macehead.json",
+        "path": "/1/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/poleaxe.json",
+        "path": "/0/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/polehammer.json",
+        "path": "/0/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/shields.json",
+        "path": "/0/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/shields.json",
+        "path": "/1/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/swords.json",
+        "path": "/1/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/swords.json",
+        "path": "/2/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/swords.json",
+        "path": "/3/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "game:recipes/smithing/blade-short.json",
+        "path": "/requiresTrait",
+        "value": "smith"
+    },
+    {
+        "op": "addmerge",
+        "file": "game:recipes/smithing/scale.json",
+        "path": "/requiresTrait",
+        "value": "smith"
+    },
+    {
+        "op": "addmerge",
+        "file": "game:recipes/smithing/chain.json",
+        "path": "/requiresTrait",
+        "value": "smith"
+    },
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/armor/plate.json",
+        "path": "/2/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/armor/plate.json",
+        "path": "/3/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "armory:recipes/smithing/armor/plate.json",
+        "path": "/4/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "armoryfork"
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "file": "stonequarry:recipes/smithing/plugandfeather.json",
+        "path": "/requiresTrait",
+        "value": "smith",
+        "dependsOn": [
+            {
+                "modid": "stonequarryrepckfipil"
+            }
+        ]
+    }
+]
