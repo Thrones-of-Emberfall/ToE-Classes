@@ -281,7 +281,7 @@
 	{
 		"enabled": true,
 		"code": "drifter",
-		"traits": [ "forager", "pilferer", "furtive", "longstrider", "angler", "claustrophobic", "brownthumb" ],
+		"traits": [ "forager", "pilferer", "furtive", "longstrider", "angler", "claustrophobic", "brownthumb", "improviser" ],
 		"gear": [
 			{
 				"type": "item",
