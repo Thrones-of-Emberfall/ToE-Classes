@@ -2,7 +2,7 @@
 	{
 		"enabled": true,
 		"code": "apothecary",
-		"traits": [ "forager", "distiller", "mixer", "apothecary", "weak", "kind", "claustrophobic" ],
+		"traits": [ "forager", "distiller", "apothecary", "weak", "kind", "claustrophobic" ],
 		"gear": [
 			{
 				"type": "item",
