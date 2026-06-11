@@ -6,6 +6,21 @@ using Vintagestory.GameContent.Mechanics;
 
 namespace ToEClasses;
 
+[HarmonyPatchCategory("GrindingWheelLock")]
+public class BlockEntityGrindingWheel_OnInteractStart_Patch
+{
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(BlockEntityGrindingWheel), nameof(BlockEntityGrindingWheel.OnInteractStart))]
+    public static bool Prefix(BlockEntityGrindingWheel __instance,
+        IPlayer byPlayer)
+    {
+        var api = __instance.Api;
+
+        if (ToEClassesUtils.HasTrait(api, byPlayer, Traits.Smith)) return true;
+        ToEClassesUtils.DenyWithPopup(api);
+        return false;
+    }
+}
 
 [HarmonyPatchCategory("AnvilLock")]
 [HarmonyPatch]
@@ -26,7 +41,6 @@ public class BlockAnvil_OnBlockInteractStart_Patch
     }
 }
 
-
 [HarmonyPatchCategory("HelveLock")]
 [HarmonyPatch]
 public class BlockHelveHammer_OnBlockInteractStart_Patch
@@ -46,7 +60,6 @@ public class BlockHelveHammer_OnBlockInteractStart_Patch
     }
 }
 
-
 [HarmonyPatchCategory("PulverizerLock")]
 [HarmonyPatch]
 public class BlockPulverizer_OnBlockInteractStart_Patch
@@ -65,7 +78,6 @@ public class BlockPulverizer_OnBlockInteractStart_Patch
         return true;
     }
 }
-
 
 [HarmonyPatchCategory("BoilerLock")]
 [HarmonyPatch]
@@ -107,7 +119,6 @@ public class ItemRoller_OnHeldInteractStart_Patch
     }
 }
 
-
 [HarmonyPatchCategory("MixingBowlLock")]
 [HarmonyPatch]
 public class BlockMixingBowl_OnBlockInteractStart_Patch
@@ -132,7 +143,6 @@ public class BlockMixingBowl_OnBlockInteractStart_Patch
         return true;
     }
 }
-
 
 [HarmonyPatchCategory("TinctureLock")]
 [HarmonyPatch]
