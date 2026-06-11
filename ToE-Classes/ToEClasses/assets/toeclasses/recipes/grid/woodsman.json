@@ -4,8 +4,8 @@
     "requiresTrait": "woodsman",
     "ingredients": {
       "A": {"type": "item", "code": "game:axe-*", "isTool": true},
-      "W": {"type": "block", "code": "game:log-*"},
-      "S": {"type": "block", "code": "game:log-*"}
+      "W": {"type": "block", "code": "*:log-*"},
+      "S": {"type": "block", "code": "*:log-*"}
     },
     "width": 3,
     "height": 1,

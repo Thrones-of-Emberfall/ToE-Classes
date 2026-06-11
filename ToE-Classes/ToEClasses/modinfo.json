@@ -1,7 +1,7 @@
 {
   "Type": "code",
   "Name": "ToEClasses",
-  "Version": "1.0.7",
+  "Version": "1.0.8",
   "Description": "All classes for ToE",
   "Website": "",
   "ModID": "toeclasses",
@@ -9,6 +9,11 @@
     "svanax"
   ],
   "Contributors": [
+    "Zaedin",
+    "liv_on",
+    "JuiceFruitF",
+    "Civveon",
+    "earth9732"
   ],
   "Side": "Universal",
   "RequiredOnClient": true,
