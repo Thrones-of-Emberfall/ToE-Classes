@@ -6,10 +6,6 @@
     "path": "/requiresTrait",
     "value": "apothecary"
   },
-  
-  
-  
-  
   {
     "dependsOn": [{ "modId": "orekiwoofsbeehives" }],
     "file": "orekiwoofsbeehives:recipes/grid/beehiveframe.json",
@@ -45,10 +41,6 @@
     "path": "/4/requiresTrait",
     "value": "apothecary"
   },
-  
-  
-  
-  
   {
     "dependsOn": [{ "modId": "orekiwoofsbeehives" }],
     "file": "orekiwoofsbeehives:recipes/grid/beehiveroof.json",
@@ -56,10 +48,6 @@
     "path": "/requiresTrait",
     "value": "apothecary"
   },
-  
-  
-  
-  
   {
     "dependsOn": [{ "modId": "orekiwoofsbeehives" }],
     "file": "orekiwoofsbeehives:recipes/grid/beehivestand.json",
@@ -67,10 +55,6 @@
     "path": "/requiresTrait",
     "value": "apothecary"
   },
-  
-  
-  
-  
   {
     "dependsOn": [{ "modId": "orekiwoofsbeehives" }],
     "file": "orekiwoofsbeehives:recipes/grid/honeycomb.json",

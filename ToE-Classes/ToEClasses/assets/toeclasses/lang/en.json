@@ -60,7 +60,32 @@
 
     "game:traitdesc-mason": "Crafts cobblestone and drystone more efficiently; can directly make ashlar blocks from stones",
 
-    "game:traitdesc-tinkerer": "Can craft epic stuff!!! PLACEHOLDER",
+    "game:traitname-machinist": "Machinist",
+    "game:traitname-sailwright": "Sailwright",
+    "game:traitname-shipwright": "Shipwright",
+    "game:traitname-smith": "Smith",
+    "game:traitname-distiller": "Distiller",
+    "game:traitname-apothecary": "Apothecary",
+    "game:traitname-artisan": "Artisan",
+    "game:traitname-pathmaker": "Pathmaker",
+    "game:traitname-tanner" : "Tanner",
+    "game:traitname-potter": "Potter",
+    "game:traitname-blackland": "Blackland",
+    "game:traitname-greenfingered": "Green Fingered",
+    "game:traitname-woodsman": "Woodsman",
+    "game:traitname-mixer": "Mixer",
+    "game:traitname-angler": "Angler",
+    
+    "game:traitdesc-machinist": "Can make, install and operate helve hammers, pulverizers, chutes and other kinds of machinery",
+    "game:traitdesc-sailwright": "Can make large sails, more efficient at making normal-sized sails",
+    "game:traitdesc-shipwright": "Can build sailboats for efficient overseas travel",
+    "game:traitdesc-smith": "Can work with advanced (Tier 2+) anvils, smith advanced tools and weaponry, and make extra arrows using bindings",
+    "game:traitdesc-distiller": "Can install and work with boilers",
+    "game:traitdesc-apothecary": "Can craft basic healing items more efficiently, exclusive access to advanced healing items",
+    "game:traitdesc-stitcher": "Allows you to repair clothes",
+    "game:traitdesc-blackland": "Can craft better soils more easily, natural grassy roofs and flails to process the grain",
+
+    "game:traitdesc-tinkerer2": "",
     "game:traitdesc-millwright": "Crafts mechanical parts more efficiently, and can exclusively craft many advanced parts. Can craft boards more effectively",
 
     "game:traitdesc-greenfingered": "Can extract seeds from produce, craft rich soil and soil boosters",

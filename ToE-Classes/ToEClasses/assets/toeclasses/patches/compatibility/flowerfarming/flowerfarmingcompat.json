@@ -6,10 +6,6 @@
     "path": "/0/requiresTrait",
     "value": "apothecary"
   },
-  
-  
-  
-  
   {
     "dependsOn": [{ "modId": "flowerfarming" }],
     "file": "flowerfarming:recipes/grid/fern-to-seed.json",
@@ -24,10 +20,6 @@
     "path": "/1/requiresTrait",
     "value": "apothecary"
   },
-  
-  
-  
-  
   {
     "dependsOn": [{ "modId": "flowerfarming" }],
     "file": "flowerfarming:recipes/grid/flower-to-seed.json",
@@ -35,10 +27,6 @@
     "path": "/0/requiresTrait",
     "value": "apothecary"
   },
-  
-  
-  
-  
   {
     "dependsOn": [{ "modId": "flowerfarming" }],
     "file": "flowerfarming:recipes/grid/rafflesia-to-seed.json",
