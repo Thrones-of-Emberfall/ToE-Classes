@@ -32,33 +32,6 @@
 	},
 	{
 		"enabled": true,
-		"code": "architect",
-		"traits": [ "mason", "carpenter", "heavyhanded", "pathmaker", "clumsy" ],
-		"gear": [
-			{
-				"type": "item",
-				"code": "game:clothes-upperbody-wanderer"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-lowerbody-emeraldreindeerherder"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-foot-hobnailboots"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-hand-scribe"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-waist-clockmaker-belt"
-			}
-		]
-	},
-	{
-		"enabled": true,
 		"code": "forger",
 		"traits": [ "mender", "smith", "machinist", "heavyhanded", "loud" ],
 		"gear": [
@@ -176,7 +149,7 @@
 	{
 		"enabled": true,
 		"code": "tunnelrat",
-		"traits": [ "miner", "pilferer", "seensomeshit", "digger", "kind", "hungry" ],
+		"traits": [ "miner", "mason", "pilferer", "seensomeshit", "digger", "kind", "hungry" ],
 		"gear": [
 			{
 				"type": "item",
@@ -207,7 +180,7 @@
 	{
 		"enabled": true,
 		"code": "artisan",
-		"traits": [ "clothier", "stitcher", "spinthrift", "potter", "artisan", "harmless" ],
+		"traits": [ "clothier", "carpenter", "stitcher", "spinthrift", "potter", "artisan", "harmless" ],
 		"gear": [
 				{
 					"type": "item",
@@ -281,7 +254,7 @@
 	{
 		"enabled": true,
 		"code": "drifter",
-		"traits": [ "forager", "pilferer", "furtive", "longstrider", "angler", "claustrophobic", "brownthumb", "improviser" ],
+		"traits": [ "forager", "pathmaker", "pilferer", "furtive", "longstrider", "angler", "claustrophobic", "brownthumb", "improviser" ],
 		"gear": [
 			{
 				"type": "item",
