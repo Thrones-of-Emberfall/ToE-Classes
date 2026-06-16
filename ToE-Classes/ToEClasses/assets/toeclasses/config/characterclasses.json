@@ -91,7 +91,7 @@
 	{
 		"enabled": true,
 		"code": "engineer",
-		"traits": [ "precise", "seensomeshit", "tinkerer2", "millwright", "sailwright", "shipwright", "loud", "lumbering" ],
+		"traits": [ "precise", "seensomeshit", "millwright", "sailwright", "shipwright", "loud", "lumbering" ],
 		"gear": [
 			{
 				"type": "item",

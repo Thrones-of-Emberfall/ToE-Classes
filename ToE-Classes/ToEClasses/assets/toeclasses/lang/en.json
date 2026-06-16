@@ -20,7 +20,6 @@
     "game:trait-shipwright": "<font color=\"#84ff84\">• Shipwright </font>",
     "game:trait-seensomeshit": "<font color=\"#84ff84\">• Seen Some Shit </font>",
     "game:trait-lumbering": "<font color=\"#ff8484\">• Lumbering </font>",
-    "game:trait-tinkerer2": "<font color=\"#84ff84\">• Tinkerer </font>",
 
     "game:trait-blackland": "<font color=\"#84ff84\">• Black Land </font>",
     "game:trait-farmer": "<font color=\"#84ff84\">• Farmer </font>",
@@ -85,7 +84,6 @@
     "game:traitdesc-stitcher": "Allows you to repair clothes",
     "game:traitdesc-blackland": "Can craft better soils more easily, natural grassy roofs and flails to process the grain",
 
-    "game:traitdesc-tinkerer2": "",
     "game:traitdesc-millwright": "Crafts mechanical parts more efficiently, and can exclusively craft many advanced parts. Can craft boards more effectively",
 
     "game:traitdesc-greenfingered": "Can extract seeds from produce, craft rich soil and soil boosters",
