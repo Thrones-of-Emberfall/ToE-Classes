@@ -122,7 +122,7 @@
 	{
 		"enabled": true,
 		"code": "farmhand",
-		"traits": [ "forager", "blackland", "farmer", "mixer", "greenfingered", "woodsman", "claustrophobic", "kind" ],
+		"traits": [ "forager", "blackland", "farmer", "greenfingered", "woodsman", "claustrophobic", "kind" ],
 		"gear": [
 			{
 				"type": "item",
