@@ -122,7 +122,7 @@
 	{
 		"enabled": true,
 		"code": "farmhand",
-		"traits": [ "forager", "blackland", "farmer", "greenfingered", "woodsman", "claustrophobic", "kind" ],
+		"traits": [ "forager", "blackland", "farmer", "greenfingered", "claustrophobic", "kind" ],
 		"gear": [
 			{
 				"type": "item",
@@ -254,7 +254,7 @@
 	{
 		"enabled": true,
 		"code": "drifter",
-		"traits": [ "forager", "pathmaker", "pilferer", "furtive", "longstrider", "angler", "claustrophobic", "brownthumb", "improviser" ],
+		"traits": [ "forager", "woodsman", "pathmaker", "pilferer", "furtive", "longstrider", "angler", "claustrophobic", "brownthumb", "improviser" ],
 		"gear": [
 			{
 				"type": "item",
