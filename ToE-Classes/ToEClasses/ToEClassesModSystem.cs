@@ -66,6 +66,6 @@ public class ToEClassesModSystem : ModSystem
             originalMethod,
             prefix: prefixMethod != null ? new HarmonyMethod(prefixMethod) : null,
             postfix: postfixMethod != null ? new HarmonyMethod(postfixMethod) : null);
-        api.Logger.Warning($"[{_harmony.Id}] Successfully injected Harmony patch into {assemblyName}!");
+        api.Logger.Notification($"[{_harmony.Id}] Successfully injected Harmony patch into {assemblyName}!");
     }
 }
