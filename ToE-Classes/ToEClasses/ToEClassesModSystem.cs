@@ -17,6 +17,13 @@ public class ToEClassesModSystem : ModSystem
         _harmony = new Harmony(Mod.Info.ModID);
         _harmony.PatchAll();
         
+        ApplyPatchesToMods(api);
+
+        api.World.Logger.Notification($"{Mod.Info.Name}: Harmony patches enabled.");
+    }
+
+    private void ApplyPatchesToMods(ICoreAPI api)
+    {
         if (api.ModLoader.IsModEnabled("herbalistpotsfork"))
         {
             DynamicPatchMod(api,
@@ -27,9 +34,27 @@ public class ToEClassesModSystem : ModSystem
                 typeof(BlockHerbalistPotPatch).GetMethod(nameof(BlockHerbalistPotPatch.OnBlockInteractStartPrefix)));
         }
 
-        api.World.Logger.Notification($"{Mod.Info.Name}: Harmony patches enabled.");
+        if (api.ModLoader.IsModEnabled("substrate"))
+        {
+            DynamicPatchMod(api,
+                "Substrate",
+                "BehaviorMushroomGrower",
+                "OnBlockInteractStart",
+                BindingFlags.Public | BindingFlags.Instance | BindingFlags.NonPublic,
+                typeof(BehaviorMushroomGrowerPatch).GetMethod(nameof(BehaviorMushroomGrowerPatch.OnBlockInteractStartPrefix)));
+        }
+
+        if (api.ModLoader.IsModEnabled("aculinaryartillery"))
+        {
+            DynamicPatchMod(api,
+                "ACulinaryArtillery",
+                "BlockMixingBowl",
+                "OnBlockInteractStart",
+                BindingFlags.Public | BindingFlags.Instance | BindingFlags.NonPublic,
+                typeof(BlockMixingBowlPatch).GetMethod(nameof(BlockMixingBowlPatch.OnBlockInteractStartPrefix)));
+        }
     }
-    
+
     private void DynamicPatchMod(ICoreAPI api,
         string assemblyName,
         string targetTypeName,
