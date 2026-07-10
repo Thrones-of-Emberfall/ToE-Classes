@@ -1,51 +1,96 @@
-﻿using HarmonyLib;
-using Vintagestory.API.Client;
+﻿using System;
+using System.Linq;
+using System.Reflection;
+using HarmonyLib;
+using ToEClasses.Patches;
 using Vintagestory.API.Common;
-using Vintagestory.API.Config;
-using Vintagestory.API.Server;
 
 namespace ToEClasses;
 
 public class ToEClassesModSystem : ModSystem
 {
     private Harmony _harmony;
-    private ICoreAPI _api;
 
-    // Called on server and client
-    // Useful for registering block/entity classes on both sides
     public override void Start(ICoreAPI api)
     {
-        _api = api;
-        RegisterBlockClasses();
-        RegisterItemClasses();
-
         if (Harmony.HasAnyPatches(Mod.Info.ModID)) return;
         _harmony = new Harmony(Mod.Info.ModID);
         _harmony.PatchAll();
+        
+        ApplyPatchesToMods(api);
+
         api.World.Logger.Notification($"{Mod.Info.Name}: Harmony patches enabled.");
     }
 
-    private void RegisterItemClasses()
+    private void ApplyPatchesToMods(ICoreAPI api)
     {
-        _api.RegisterItemClass("RollerLocked", typeof(RollerLocked));
+        if (api.ModLoader.IsModEnabled("herbalistpotsfork"))
+        {
+            DynamicPatchMod(api,
+                "HerbPots",
+                "BlockHerbalistPot",
+                "OnBlockInteractStart",
+                BindingFlags.Public | BindingFlags.Instance | BindingFlags.NonPublic,
+                typeof(BlockHerbalistPotPatch).GetMethod(nameof(BlockHerbalistPotPatch.OnBlockInteractStartPrefix)));
+        }
+
+        if (api.ModLoader.IsModEnabled("substrate"))
+        {
+            DynamicPatchMod(api,
+                "Substrate",
+                "BehaviorMushroomGrower",
+                "OnBlockInteractStart",
+                BindingFlags.Public | BindingFlags.Instance | BindingFlags.NonPublic,
+                typeof(BehaviorMushroomGrowerPatch).GetMethod(nameof(BehaviorMushroomGrowerPatch.OnBlockInteractStartPrefix)));
+        }
+
+        if (api.ModLoader.IsModEnabled("aculinaryartillery"))
+        {
+            DynamicPatchMod(api,
+                "ACulinaryArtillery",
+                "BlockMixingBowl",
+                "OnBlockInteractStart",
+                BindingFlags.Public | BindingFlags.Instance | BindingFlags.NonPublic,
+                typeof(BlockMixingBowlPatch).GetMethod(nameof(BlockMixingBowlPatch.OnBlockInteractStartPrefix)));
+        }
     }
 
-    private void RegisterBlockClasses()
+    private void DynamicPatchMod(ICoreAPI api,
+        string assemblyName,
+        string targetTypeName,
+        string originalMethodName,
+        BindingFlags originalMethodFlags,
+        MethodInfo? prefixMethod = null,
+        MethodInfo? postfixMethod = null)
     {
-        _api.RegisterBlockClass("AnvilLocked", typeof(AnvilLocked));
-        _api.RegisterBlockClass("BellowsLocked", typeof(BellowLocked));
-        _api.RegisterBlockClass("HelveLocked", typeof(HelveLocked));
-        _api.RegisterBlockClass("PulverizerLocked", typeof(PulverizerLocked));
-        _api.RegisterBlockClass("BoilerLocked", typeof(BoilerLocked));
-    }
+        var herbAsm = AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(a => a.GetName().Name == assemblyName);
 
-    public override void StartServerSide(ICoreServerAPI api)
-    {
-        Mod.Logger.Notification("Hello from template mod server side: " + Lang.Get("toe-classes:hello"));
-    }
+        if (herbAsm == null)
+        {
+            api.Logger.Warning($"[{_harmony.Id}] {assemblyName} not loaded. Skipping patch.");
+            return;
+        }
 
-    public override void StartClientSide(ICoreClientAPI api)
-    {
-        Mod.Logger.Notification("Hello from template mod client side: " + Lang.Get("toe-classes:hello"));
+        var targetType = herbAsm.GetTypes().FirstOrDefault(t => t.Name == targetTypeName);
+
+        if (targetType == null)
+        {
+            api.Logger.Warning($"[{_harmony.Id}] {assemblyName} is enabled, but type '{targetTypeName}' could not be located.");
+            return;
+        }
+
+        var originalMethod = targetType.GetMethod(originalMethodName, originalMethodFlags);
+
+        if (originalMethod == null)
+        {
+            api.Logger.Error($"[{_harmony.Id}] Could not find method '{originalMethodName}' on type '{targetTypeName}'.");
+            return;
+        }
+
+        _harmony.Patch(
+            originalMethod,
+            prefix: prefixMethod != null ? new HarmonyMethod(prefixMethod) : null,
+            postfix: postfixMethod != null ? new HarmonyMethod(postfixMethod) : null);
+        api.Logger.Notification($"[{_harmony.Id}] Successfully injected Harmony patch into {assemblyName}!");
     }
 }

@@ -1,7 +1,7 @@
 {
   "Type": "code",
   "Name": "ToEClasses",
-  "Version": "0.1.0",
+  "Version": "1.0.11",
   "Description": "All classes for ToE",
   "Website": "",
   "ModID": "toeclasses",
@@ -9,12 +9,17 @@
     "svanax"
   ],
   "Contributors": [
+    "Zaedin",
+    "liv_on",
+    "JuiceFruitF",
+    "Civveon",
+    "earth9732"
   ],
   "Side": "Universal",
   "RequiredOnClient": true,
   "RequiredOnServer": true,
-  "Dependencies": {
-    "game" : "",
-    "playermodellib": ""
-  }
+    "Dependencies": {
+        "game": "",
+        "playermodellib": ""
+    }
 }

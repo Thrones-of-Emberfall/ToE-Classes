@@ -1,7 +1,7 @@
 [
 
   {
-    "ingredientPattern": "L,S",
+    "ingredientPattern": "S,L",
     "requiresTrait": "pathmaker",
     "ingredients": {
       "L": { "type": "item", "code": "game:stone-*", "name": "rock", "quantity": 4 },
@@ -13,31 +13,31 @@
     "output": { "type": "block", "code": "game:stonepath-free", "quantity": 2 }
   },
   {
-    "ingredientPattern": "LSL",
+    "ingredientPattern": "L,S,L",
     "requiresTrait": "pathmaker",
     "ingredients": {
       "L": { "type": "item", "code": "game:stone-*", "name": "rock", "quantity": 1 },
       "S": { "type": "block", "code": "game:soil-*" },
       "C": { "type": "item", "code": "game:shovel-*", "name": "metal", "isTool": true}
     },
-    "width": 3,
-    "height": 1,
+    "width": 1,
+    "height": 3,
     "output": { "type": "block", "code": "game:stonepathslab-free", "quantity": 2 }
   },
   {
-    "ingredientPattern": "LM_,S__",
+    "ingredientPattern": "S_,LM",
     "requiresTrait": "pathmaker",
     "ingredients": {
       "L": { "type": "item", "code": "game:stone-*", "name": "rock", "quantity": 3 },
       "M": { "type": "item", "code": "game:stone-*", "name": "rock", "quantity": 1 },
       "S": { "type": "block", "code": "game:soil-*" }
     },
-    "width": 3,
+    "width": 2,
     "height": 2,
     "output": { "type": "block", "code": "game:stonepathstairs-up-north-free", "quantity": 2 }
   },
   {
-    "ingredientPattern": "SP",
+    "ingredientPattern": "PS",
     "requiresTrait": "pathmaker",
     "ingredients": {
       "S": { "type": "item", "code": "game:saw-*", "isTool": true },

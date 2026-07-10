@@ -2,7 +2,7 @@
 	{
 		"enabled": true,
 		"code": "apothecary",
-		"traits": [ "forager", "distiller", "mixer", "apothecary", "weak", "kind", "claustrophobic" ],
+		"traits": [ "forager", "distiller", "apothecary", "weak", "kind", "claustrophobic" ],
 		"gear": [
 			{
 				"type": "item",
@@ -27,41 +27,6 @@
 			{
 				"type": "item",
 				"code": "game:clothes-hand-tailor-gloves"
-			}
-		]
-	},
-	{
-		"enabled": true,
-		"code": "architect",
-		"traits": [ "mason", "carpenter", "heavyhanded", "clumsy" ],
-		"gear": [
-			{
-				"type": "item",
-				"code": "game:clothes-head-messengers-hat"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-upperbody-messenger-shirt"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-lowerbody-messenger-trousers"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-foot-messenger-shoes"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-emblem-messenger-pin"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-hand-laced-handsome-gloves"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-waist-messenger-belt"
 			}
 		]
 	},
@@ -103,85 +68,77 @@
 		"gear": [
 			{
 				"type": "item",
-				"code": "game:clothes-head-alchemist"
+				"code": "game:clothes-lowerbody-pastoral-pants"
 			},
 			{
 				"type": "item",
-				"code": "game:clothes-shoulder-alchemist"
+				"code": "game:clothes-upperbody-kirtlebrown"
 			},
 			{
 				"type": "item",
-				"code": "game:clothes-upperbody-alchemist"
+				"code": "game:clothes-waist-peasant-strap"
 			},
 			{
 				"type": "item",
-				"code": "game:clothes-lowerbody-alchemist"
+				"code": "game:clothes-foot-high-leather-boots"
 			},
 			{
 				"type": "item",
-				"code": "game:clothes-foot-alchemist"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-waist-alchemist"
+				"code": "game:clothes-waist-peasantapron"
 			}
 		]
 	},
 	{
 		"enabled": true,
 		"code": "engineer",
-		"traits": [ "precise", "seensomeshit", "tinkerer2", "millwright", "sailwright", "shipwright", "loud", "lumbering" ],
+		"traits": [ "precise", "seensomeshit", "millwright", "sailwright", "shipwright", "loud", "lumbering" ],
 		"gear": [
 			{
 				"type": "item",
-				"code": "game:clothes-head-merchant-hat"
+				"code": "game:clothes-shoulder-clockmaker-apron"
 			},
 			{
 				"type": "item",
-				"code": "game:clothes-upperbody-merchant-shirt"
+				"code": "game:clothes-upperbody-clockmaker-shirt"
 			},
 			{
 				"type": "item",
-				"code": "game:clothes-lowerbody-merchant-pants"
+				"code": "game:clothes-upperbodyover-clockmaker-tunic"
 			},
 			{
 				"type": "item",
-				"code": "game:clothes-foot-merchant-shoes"
+				"code": "game:clothes-lowerbody-clockmaker-pants"
 			},
 			{
 				"type": "item",
-				"code": "game:clothes-arm-merchant-bracelet"
+				"code": "game:clothes-foot-clockmaker-shoes"
 			},
 			{
 				"type": "item",
-				"code": "game:clothes-waist-merchant-belt"
+				"code": "game:clothes-waist-clockmaker-belt"
 			}
 		]
 	},
 	{
 		"enabled": true,
 		"code": "farmhand",
-		"traits": [ "forager", "blackland", "farmer", "greenfingered", "woodsman", "claustrophobic", "kind" ],
+		"traits": [ "forager", "blackland", "farmer", "greenfingered", "claustrophobic", "kind" ],
 		"gear": [
 			{
 				"type": "item",
-				"code": "game:clothes-head-straw-hat"
+				"code": "game:clothes-upperbody-shepherd-tunic"
 			},
 			{
 				"type": "item",
-				"code": "game:clothes-upperbody-scribe"
+				"code": "game:clothes-lowerbody-wanderer"
 			},
 			{
 				"type": "item",
-				"code": "game:clothes-lowerbody-scribe"
+				"code": "game:clothes-foot-commoner-boots"
 			},
 			{
 				"type": "item",
-				"code": "game:clothes-foot-scribe"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-hand-scribe"
+				"code": "game:clothes-hand-commoner-gloves"
 			},
 			{
 				"type": "item",
@@ -192,11 +149,11 @@
 	{
 		"enabled": true,
 		"code": "tunnelrat",
-		"traits": [ "miner", "pilferer", "seensomeshit", "digger", "mason", "kind", "hungry" ],
+		"traits": [ "miner", "mason", "pilferer", "seensomeshit", "digger", "kind", "hungry" ],
 		"gear": [
 			{
 				"type": "item",
-				"code": "game:clothes-shoulder-marketeer"
+				"code": "game:clothes-shoulder-miner"
 			},
 			{
 				"type": "item",
@@ -204,15 +161,15 @@
 			},
 			{
 				"type": "item",
-				"code": "game:clothes-lowerbody-marketeer"
+				"code": "game:clothes-upperbodyover-miner"
 			},
 			{
 				"type": "item",
-				"code": "game:clothes-foot-marketeer"
+				"code": "game:clothes-nadiya-lowerbody-miner"
 			},
 			{
 				"type": "item",
-				"code": "game:clothes-neck-marketeer"
+				"code": "game:clothes-nadiya-foot-miner"
 			},
 			{
 				"type": "item",
@@ -223,32 +180,32 @@
 	{
 		"enabled": true,
 		"code": "artisan",
-		"traits": [ "clothier", "stitcher", "sailwright", "spinthrift", "potter", "artisan", "harmless" ],
+		"traits": [ "clothier", "carpenter", "stitcher", "spinthrift", "potter", "artisan", "harmless" ],
 		"gear": [
-			{
-				"type": "item",
-				"code": "game:clothes-head-lackey-hat"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-upperbody-lackey-shirt"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-lowerbody-lackey-breeches"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-foot-lackey-shoes"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-arm-bronze-bracelet"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-hand-lackey-gloves"
-			}
+				{
+					"type": "item",
+					"code": "game:clothes-upperbody-reindeer-herder-collared-shirt"
+				},
+				{
+					"type": "item",
+					"code": "game:clothes-upperbodyover-huntsmans-tunic"
+				},
+				{
+					"type": "item",
+					"code": "game:clothes-lowerbody-commoner-trousers"
+				},
+				{
+					"type": "item",
+					"code": "game:clothes-foot-worn-leather-boots"
+				},
+				{
+					"type": "item",
+					"code": "game:clothes-waist-sturdy-leather-belt"
+				},
+				{
+					"type": "item",
+					"code": "game:clothes-hand-hunter-gloves"
+				}
 		]
 	},
 	{
@@ -297,7 +254,7 @@
 	{
 		"enabled": true,
 		"code": "drifter",
-		"traits": [ "forager", "pilferer", "furtive", "longstrider", "angler", "pathmaker", "claustrophobic", "brownthumb" ],
+		"traits": [ "forager", "woodsman", "pathmaker", "pilferer", "furtive", "longstrider", "angler", "claustrophobic", "brownthumb", "improviser" ],
 		"gear": [
 			{
 				"type": "item",
@@ -326,10 +283,6 @@
 			{
 				"type": "item",
 				"code": "game:clothes-hand-survivor"
-			},
-			{
-				"type": "item",
-				"code": "game:clothes-face-surgeon"
 			}
 		]
 	},

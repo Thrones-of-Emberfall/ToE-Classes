@@ -20,7 +20,6 @@
     "game:trait-shipwright": "<font color=\"#84ff84\">• Shipwright </font>",
     "game:trait-seensomeshit": "<font color=\"#84ff84\">• Seen Some Shit </font>",
     "game:trait-lumbering": "<font color=\"#ff8484\">• Lumbering </font>",
-    "game:trait-tinkerer2": "<font color=\"#84ff84\">• Tinkerer </font>",
 
     "game:trait-blackland": "<font color=\"#84ff84\">• Black Land </font>",
     "game:trait-farmer": "<font color=\"#84ff84\">• Farmer </font>",
@@ -48,24 +47,48 @@
 
     "game:traitdesc-mixer": "Can make exclusive use of mixing bowls",
     "game:traitdesc-dirtyapron": "Food stays fresh 50% longer in crocks you seal",
-    
+
     "game:traitdesc-spinthrift": "Spins flax fiber into twine more efficiently",
-    "game:traitdesc-potter": "Spins flax fiber into twine more efficiently",
+    "game:traitdesc-potter": "Can craft mortar, plaster, bricks and refractory bricks at lower costs",
     "game:traitdesc-artisan": "Can create exclusive decorated pottery and luxurious furniture",
 
     "game:traitdesc-tanner": "Exclusive craftable leather goods, and cheaper recipe for backpacks",
-    
+
     "game:traitdesc-angler": "Recipe of Fishing Rod locked to Wayfarer",
     "game:traitdesc-pathmaker": "Crafts paths more efficiently",
-    
-    "game:traitdesc-mason": "",
 
-    "game:traitdesc-tinkerer": "",
+    "game:traitdesc-mason": "Crafts cobblestone and drystone more efficiently; can directly make ashlar blocks from stones",
+
+    "game:traitname-machinist": "Machinist",
+    "game:traitname-sailwright": "Sailwright",
+    "game:traitname-shipwright": "Shipwright",
+    "game:traitname-smith": "Smith",
+    "game:traitname-distiller": "Distiller",
+    "game:traitname-apothecary": "Apothecary",
+    "game:traitname-artisan": "Artisan",
+    "game:traitname-pathmaker": "Pathmaker",
+    "game:traitname-tanner" : "Tanner",
+    "game:traitname-potter": "Potter",
+    "game:traitname-blackland": "Blackland",
+    "game:traitname-greenfingered": "Green Fingered",
+    "game:traitname-woodsman": "Woodsman",
+    "game:traitname-mixer": "Mixer",
+    "game:traitname-angler": "Angler",
+    
+    "game:traitdesc-machinist": "Can make, install and operate helve hammers, pulverizers, chutes and other kinds of machinery",
+    "game:traitdesc-sailwright": "Can make large sails, more efficient at making normal-sized sails",
+    "game:traitdesc-shipwright": "Can build sailboats for efficient overseas travel",
+    "game:traitdesc-smith": "Can work with advanced (Tier 2+) anvils, smith advanced tools and weaponry, and make extra arrows using bindings",
+    "game:traitdesc-distiller": "Can install and work with boilers",
+    "game:traitdesc-apothecary": "Can craft basic healing items more efficiently, exclusive access to advanced healing items",
+    "game:traitdesc-stitcher": "Allows you to repair clothes",
+    "game:traitdesc-blackland": "Can craft better soils more easily, natural grassy roofs and flails to process the grain",
+
     "game:traitdesc-millwright": "Crafts mechanical parts more efficiently, and can exclusively craft many advanced parts. Can craft boards more effectively",
 
     "game:traitdesc-greenfingered": "Can extract seeds from produce, craft rich soil and soil boosters",
     "game:traitdesc-woodsman": "Produces more firewood when chopping logs, can craft sticks from firewood",
-    
+
     "game:charattribute-miningSpeedMul--0.1": "-10% mining speed",
     "game:charattribute-animalSeekingRange-0.35": "+35% animal detection range",
     "game:charattribute-animalSeekingRange--0.2": "-20% animal detection range",
@@ -99,8 +122,6 @@
     "game:characterclass-drifter": "Drifter",
     "game:characterclass-ironback": "Ironback",
 
-    "game:characterdesc-apothecary": "<font color=\"#A8E6A3\"><i>You have spent your life learning what grows, what heals and what kills. Herbs, tinctures and remedies fill your pack where weapons might fill another's. The line between medicine and poison is one you know well.</i></font>",
-    "game:characterdesc-architect": "<font color=\"#C4A882\"><i>Stone and timber are your language. You have raised walls, laid foundations and carved order from raw earth. Where others see wilderness, you see what could be built there.</i></font>",
     "game:characterdesc-forger": "<font color=\"#FF9F6B\"><i>The forge never sleeps and neither do you. Iron, steel and fire have shaped your hands and your life in equal measure. Without you, there are no tools, no weapons and no armor worth wearing.</i></font>",
     "game:characterdesc-scullion": "<font color=\"#FFD97D\"><i>You have fed armies, settlements and starving families with whatever the land offered. A fire and a pot are all you need. While others fight over resources, you turn them into something that keeps people alive.</i></font>",
     "game:characterdesc-engineer": "<font color=\"#82CFFF\"><i>Gears, levers and mechanical systems are second nature to you. You understand how things move, how they break and how to make them last. A settlement without an engineer is a settlement waiting to fail.</i></font>",

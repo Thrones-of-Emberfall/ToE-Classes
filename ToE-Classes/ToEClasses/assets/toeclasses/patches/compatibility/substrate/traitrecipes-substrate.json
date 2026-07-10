@@ -1,0 +1,6 @@
+[
+    { "op": "addmerge", "file": "substrate:recipes/grid/fruitingbag.json", "path": "/requiresTrait", "value": "farmer", "dependsOn": [{ "modid": "substrate" }] },
+    { "op": "addmerge", "file": "substrate:recipes/grid/growbed.json",     "path": "/requiresTrait", "value": "farmer", "dependsOn": [{ "modid": "substrate" }] },
+    { "op": "addmerge", "file": "substrate:recipes/grid/sporeprint.json",  "path": "/requiresTrait", "value": "farmer", "dependsOn": [{ "modid": "substrate" }] },
+    { "op": "addmerge", "file": "substrate:recipes/grid/woodchip.json",    "path": "/requiresTrait", "value": "farmer", "dependsOn": [{ "modid": "substrate" }] }
+]
